@@ -1,26 +1,26 @@
 id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
-1	爱	愛	ài	amar	love		爱	True
+1	爱	愛	ài	amar	love		爱	False
 2	爱好	愛好	ài hào	pasatiempo	hobby		爱好	False
-3	爸爸	爸爸	bàba	papá	dad		爸爸	True
-4	白（形）	白	bái	sin resultados; en vano; esfuerzos de desechos; blanco	without results; in vain; waste efforts; white		白	True
+3	爸爸	爸爸	bàba	papá	dad		爸爸	False
+4	白（形）	白	bái	sin resultados; en vano; esfuerzos de desechos; blanco	without results; in vain; waste efforts; white		白	False
 5	八	八	bā	ocho	eight		八	False
-6	白天	白天	bái tiān	día	day		白天	True
+6	白天	白天	bái tiān	día	day		白天	False
 7	班	班	bān	clase	class		班	False
 8	百	百	bǎi	centenar	hundred		百	False
 9	吧	吧	ba	(partícula de interjección)	(interjection particle)		吧	False
-10	半	半	bàn	medio	half		半	True
-11	半年	半年	bàn nián	medio año	half a year		半年	True
+10	半	半	bàn	medio	half		半	False
+11	半年	半年	bàn nián	medio año	half a year		半年	False
 12	半天	半天	bàn tiān	medio día	half day		半天	False
 13	帮	幫	bāng	ayuda	help		帮	False
 14	帮忙	幫忙	bāng máng	ayuda	help		帮忙	False
 15	包	包	bāo	paquete	package		包	False
 16	包子	包子	bāo zi	bollo	bun		包子	False
-17	杯	盃	bēi	taza	cup		杯	True
-18	杯子	杯子	bēi zi	taza	cup		杯子	True
-19	北边	北邊	běi biān	lado norte	North side		北边	True
+17	杯	盃	bēi	taza	cup		杯	False
+18	杯子	杯子	bēi zi	taza	cup		杯子	False
+19	北边	北邊	běi biān	lado norte	North side		北边	False
 20	本（量）	本	běn	este; originalmente; (mida la palabra para libros o volúmenes)	this; originally; (measure word for books or volumes)		本	False
 21	北京	北京	běi jīng	beijing	Beijing		北京	False
-22	北	北	běi	norte	north		北	True
+22	北	北	běi	norte	north		北	False
 23	本子	本子	běn zi	libro	book		本子	False
 24	别（副）	彆	bié	no; dejar; separado; alfiler	do not; leave; separate; pin		别	False
 25	别的	別的	bié de	otro	other		别的	False
@@ -36,13 +36,13 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 35	差	差	chà	difiere de; malo; escaso de	differ from; bad; short of		差	False
 36	不	不	bù	no	No		不	False
 37	茶	茶	chá	té	tea		茶	False
-38	常常	常常	cháng cháng	a menudo	often		常常	True
-39	常	常	cháng	a menudo	often		常	True
+38	常常	常常	cháng cháng	a menudo	often		常常	False
+39	常	常	cháng	a menudo	often		常	False
 40	车	車	chē	auto	car		车	False
-41	唱歌	唱歌	chàng gē	cantar	sing		唱歌	True
+41	唱歌	唱歌	chàng gē	cantar	sing		唱歌	False
 42	车上	車上	chē shàng	en el auto	in the car		车上	False
 43	车票	車票	chē piào	boleto	ticket		车票	False
-44	唱	唱	chàng	cantar	sing		唱	True
+44	唱	唱	chàng	cantar	sing		唱	False
 45	吃	喫	chī	comer	eat		吃	False
 46	车站	車站	chē zhàn	estación	station		车站	False
 47	吃饭	吃飯	chī fàn	tener comida	have meal		吃饭	False
@@ -75,11 +75,11 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 74	第（第二）	第	dì （ dì èr ）	palabra auxiliar para números ordinales (segundo)	auxiliary word for ordinal numbers (second )		第	False
 75	点	點	diǎn	lugar	spot		点	False
 76	电话	電話	diàn huà	teléfono	phone		电话	False
-77	电	電	diàn	electricidad	electricity		电	True
+77	电	電	diàn	electricidad	electricity		电	False
 78	电脑	電腦	diànnǎo	computadora	Computer		电脑	False
-79	电视机	電視機	diàn shì jī	televisión	television		电视机	True
+79	电视机	電視機	diàn shì jī	televisión	television		电视机	False
 80	电影	電影	diànyǐng	película	Film		电影	False
-81	电视	電視	diànshì	televisión	television		电视	True
+81	电视	電視	diànshì	televisión	television		电视	False
 82	电影院	電影院	diàn yǐng yuàn	cine; cine	cinema; movie theater		电影院	False
 83	东边	東邊	dōng biān	lado este	east side		东边	False
 84	东	東	dōng	este	east		东	False
@@ -114,7 +114,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 113	高	高	gāo	alto	high		高	False
 114	告诉	告訴	gàosu	decir	tell		告诉	False
 115	哥哥	哥哥	gēge	hermano mayor	elder brother		哥哥	False
-116	歌	謌	gē	canción	song		歌	True
+116	歌	謌	gē	canción	song		歌	False
 117	干什么	幹甚麼	gàn shén me	qué hacer	What to do		干什么	False
 118	个	箇	gè	individual	individual		个	False
 119	给	給	gěi	dar	give		给	False
@@ -271,7 +271,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 270	您	您	nín	tú	you		您	False
 271	牛奶	牛奶	niúnǎi	leche	milk		牛奶	False
 272	女	女	nǚ	mujer	woman		女	False
-273	年	秊	nián	año	year		年	True
+273	年	秊	nián	año	year		年	False
 274	女孩儿	女孩兒	nǚ háir	chica	girl		女孩儿	False
 275	女儿	女兒	nǚ’ér	hija	daughter		女儿	False
 276	女生	女生	nǚ shēng	chica	girl		女生	False
@@ -352,7 +352,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 351	什么	什麼	shénme	qué	What		什么	False
 352	她	她	tā	ella	she		她	False
 353	她们	她們	tā men	ellos	they		她们	False
-354	天	天	tiān	día	day		天	True
+354	天	天	tiān	día	day		天	False
 355	他	他	tā	él	he		他	False
 356	太	太	tài	también	too		太	False
 357	天气	天氣	tiānqì	clima	weather		天气	False
@@ -484,7 +484,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 483	准备	準備	zhǔnbèi	prepararse	Get ready		准备	False
 484	桌子	桌子	zhuōzi	mesa	Table		桌子	False
 485	字	字	zì	palabra, carácter	word, character		字	False
-486	子（桌子）	子	zi （ zhuō zi ）	sufijo sustantivo (mesa)	noun suffix (table)		子	True
+486	子（桌子）	子	zi （ zhuō zi ）	sufijo sustantivo (mesa)	noun suffix (table)		子	False
 487	走	走	zǒu	ve a caminar	go, walk		走	False
 488	最	最	zuì	mayoría	most		最	False
 489	走路	走路	zǒu lù	caminar	walk		走路	False
@@ -518,7 +518,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 517	笔	筆	bǐ	bolígrafo	pen		笔	False
 518	背（动）	背	bēi	llevar por la espalda; hombro; atrás	carry on the back; shoulder		背	False
 519	笔记本	筆記本	bǐjìběn	computadora portátil	Notebook		笔记本	False
-520	边	邊	biān	lado	side		边	True
+520	边	邊	biān	lado	side		边	False
 521	变	變	biàn	cambiar	change		变	False
 522	必须	必須	bìxū	debe	Must		必须	False
 523	遍	遍	biàn	veces	Times		遍	False
@@ -1268,7 +1268,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 1267	把（介）	把	bǎ	(marca de partículas el siguiente sustantivo como objeto directo)	(particle marking the following noun as a direct object)		把	False
 1268	白菜	白菜	bái cài	col china	Chinese cabbage		白菜	False
 1269	搬	搬	bān	doblar; mover	turn; move		搬	False
-1270	白（副）	白	bái	sin resultados; en vano; esfuerzos de desechos; blanco	without results; in vain; waste efforts; white		白	True
+1270	白（副）	白	bái	sin resultados; en vano; esfuerzos de desechos; blanco	without results; in vain; waste efforts; white		白	False
 1271	班级	班級	bān jí	clase	class		班级	False
 1272	搬家	搬家	bān jiā	mover; mudarse	move; move house		搬家	False
 1273	办理	辦理	bànlǐ	manejar	handle		办理	False
