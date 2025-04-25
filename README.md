@@ -29,6 +29,7 @@ This program tags words in an Anki deck based on their presence in a book's text
 
 - **Lemmatization**: While the program currently works for Chinese, it has not been fully implemented for languages like Spanish or other Germanic languages. The ability to handle lemmas (base forms of words) is still under development.
 - **OCR for Comics**: There are plans to expand the program to extract text from comics using OCR, allowing language learners to learn vocabulary from visual media such as comics or movies.
+- **Single Executable**: It would be ideal for this program to be able to be compiled into a single executable for all platforms
 
 ## How to Use
 
@@ -39,5 +40,5 @@ This program tags words in an Anki deck based on their presence in a book's text
 3. Run the Python program with the text file and the Anki TSV file as input:
 
 ```bash
-python anki_flashcard_tagging.py textFile.txt ankiExport.csv 7 6
+python anki.py assets/textFile.txt assets/dictionary.tsv 7 6
 ```
