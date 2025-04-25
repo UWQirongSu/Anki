@@ -1,15 +1,15 @@
 id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
-1	Apfel		AH-pfel	Apple	Apfel			True
-2	Haus		Howss	House	Haus			True
-3	Katze		KA-tse	Cat	Katze			True
+1	Apfel		AH-pfel	Apple	Apfel			False
+2	Haus		Howss	House	Haus			False
+3	Katze		KA-tse	Cat	Katze			False
 4	Auto		AH-toh	Car	Auto			False
-5	Freund		Froind	Friend	Freund			True
-6	schnell		SHNEL	Fast	Schnell			True
-7	schön		Shurn	Beautiful	Schön			True
+5	Freund		Froind	Friend	Freund			False
+6	schnell		SHNEL	Fast	Schnell			False
+7	schön		Shurn	Beautiful	Schön			False
 8	laufen		LOU-fen	To run	Laufen			False
 9	trinken		TRIN-ken	To drink	Trinken			False
 10	sprechen		SHPREH-ken	To speak	Sprechen			False
-11	Tisch		Tish	Table	Tisch			True
+11	Tisch		Tish	Table	Tisch			False
 12	Fenster		FEN-ster	Window	Fenster			False
 13	Freundlich		FROINT-lish	Friendly	Freundlich			False
 14	groß		GROSS	Big	Groß			False
@@ -22,7 +22,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 21	schlafen		SHLAH-fen	To sleep	Schlafen			False
 22	sehen		ZAY-en	To see	Sehen			False
 23	hören		HUR-en	To hear	Hören			False
-24	gehen		GAY-en	To go	Gehen			True
+24	gehen		GAY-en	To go	Gehen			False
 25	arbeiten		AR-bei-ten	To work	Arbeiten			False
 26	lachen		LAH-chen	To laugh	Lachen			False
 27	weinen		WHY-nen	To cry	Weinen			False
@@ -67,7 +67,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 66	verkaufen		FER-KAU-fen	To sell	Verkaufen			False
 67	lesen		LEH-zen	To read	Lesen			False
 68	schreiben		SHRY-bren	To write	Schreiben			False
-69	wohnen		VOH-nen	To live	Wohnen			True
+69	wohnen		VOH-nen	To live	Wohnen			False
 70	bauen		BOW-en	To build	Bauen			False
 71	kochen		KOH-ken	To cook	Kochen			False
 72	backen		BAH-ken	To bake	Backen			False

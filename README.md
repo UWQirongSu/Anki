@@ -29,17 +29,49 @@ This program tags words in an Anki deck based on their presence in a book's text
 
 - **Lemmatization**: While the program currently works for Chinese, it has not been fully implemented for languages like Spanish or other Germanic languages. The ability to handle lemmas (base forms of words) is still under development.
 - **OCR for Comics**: There are plans to expand the program to extract text from comics using OCR, allowing language learners to learn vocabulary from visual media such as comics or movies.
-- **Saving Learned Words**: To avoid re-learning the same words over and over that you already know, Anki will need to save a dictionary of already learned vocabulary.
 - **Single Executable**: It would be ideal for this program to be able to be compiled into a single executable for ALL platforms (currently single executable available only for windows)
 
 ## How to Use
 
-### Running the Program
-
-1. Export your Anki deck to a TSV file.
-2. Prepare your book in .txt format (you can copy-paste from any source).
-3. Run the Python program with the text file and the Anki TSV file as input:
+### Basic Command
 
 ```bash
-python anki.py assets/text.txt assets/dictionary.tsv 7 6
+python anki.py <text_file> <_tsv_file>
+```
+
+Parameters:
+<text_file>: Path to the text file (corpus) that contains the content to search for words.
+<tsv_file>: Path to the TSV file containing the word list. This file is both an input and output (it holds the words and their tags).
+
+### Flags
+
+-history <history_file>: Optional. Path to a TSV file that stores previously learned words. This file helps ensure that you don't tag words you've already learned in the past.
+--disable-history: Optional. Disable storing history. If used, the program will not update or use the history file.
+--required-count <number>: Optional. The minimum number of occurrences required for a word to be tagged. By default, it’s set to 1.
+
+### Example 1: Basic Usage
+
+```bash
+python anki.py assets/text.txt assets/dictionary.tsv
+```
+
+### Example 2: With History
+
+```bash
+python anki.py assets/text.txt assets/dictionary.tsv -history assets/ankihistory.tsv
+```
+
+### Example 3: With Required Count
+
+```bash
+python anki.py assets/text.txt assets/dictionary.tsv --required-count 3
+
+```
+
+### Example 4: With Disabled History
+
+```bash
+python anki.py assets/text.txt assets/dictionary.tsv --disable-history
+
+
 ```
