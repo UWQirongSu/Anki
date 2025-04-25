@@ -40,5 +40,5 @@ This program tags words in an Anki deck based on their presence in a book's text
 3. Run the Python program with the text file and the Anki TSV file as input:
 
 ```bash
-python anki.py assets/textFile.txt assets/dictionary.tsv 7 6
+python anki.py assets/text.txt assets/dictionary.tsv 7 6
 ```
