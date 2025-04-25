@@ -16,7 +16,7 @@ This program tags words in an Anki deck based on their presence in a book's text
 1. **Prepare your Anki deck**: Export your Anki deck to a TSV format.
 2. **Choose a book**: Pick a book you want to read. Ideally, it should be in a .txt format (you can copy-paste if needed).
 3. **Tag the vocabulary**: The program will tag the words in your Anki deck based on their occurrences in the book. You can set the tags by chapter, so each chapter’s words are learned individually.
-4. **Learn new words**: Unsuspend words in Anki that appear in the current chapter and learn them using the spaced-repetition system.
+4. **Learn new words**: Review words in Anki that appear in the current chapter and learn them using the spaced-repetition system.
 5. **Read The Book With Minimal Dictionary Use** Enjoy the content of the book without needing to refer to a dictionary
 
 ### Important Notes
