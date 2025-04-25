@@ -102,7 +102,7 @@ class AnkiWordList:
 def anki_parse(textFile, tagsFile, searchIdx, tagIdx):
 Inputs:
     char[] textFile : The path to the text file (corpus) that contains the content to search for words.
-    char[] tagsFile : The path to the TSV file containing the word list. This file is both an input and an output (it holds the words and their tags).
+    char[] dictionaryFile : The path to the TSV file containing the word list. This file is both an input and an output (it holds the words and their tags).
     int searchIdx : The index in the TSV file where the word to search for in the corpus is located.
     int tagIdx : The index in the TSV file where the tag is stored.
 
