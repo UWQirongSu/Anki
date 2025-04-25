@@ -45,9 +45,14 @@ Parameters:
 
 ### Flags
 
--history <history_file>: Optional. Path to a TSV file that stores previously learned words. This file helps ensure that you don't tag words you've already learned in the past.
---disable-history: Optional. Disable storing history. If used, the program will not update or use the history file.
---required-count <number>: Optional. The minimum number of occurrences required for a word to be tagged. By default, it’s set to 1.
+- `-history <history_file>`:  
+  **Optional**. Path to a TSV file that stores previously learned words. This file helps ensure that you don't tag words you've already learned in the past.
+
+- `--disable-history`:  
+  **Optional**. Disables storing history. If used, the program will not update or use the history file.
+
+- `--required-count <number>`:  
+  **Optional**. The minimum number of occurrences required for a word to be tagged. By default, it is set to `1`.
 
 ### Example 1: Basic Usage
 
