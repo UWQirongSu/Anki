@@ -174,11 +174,17 @@ def anki_parse(textFile, dictionaryFile, requiredCount, historyFile, disableHist
     dictionary.tagFromFile(textFile, requiredCount)
     print(dictionary)
 
-    if(historyFile and not disableHistoryFlag):
+    if historyFile and not disableHistoryFlag:
         history = AnkiDictionary()
-        history.loadFromFile(historyFile)
-        dictionary.tagsAndNot(history)
-        print(history)
+        if os.path.exists(historyFile): # Check if history file exists, if not initialize an empty history
+            history.loadFromFile(historyFile)
+            dictionary.tagsAndNot(history)
+            print(history)
+        else:
+            print(f"History file {historyFile} does not exist. Starting with an empty history.")
+
+        history.appendWords(dictionary.getTagged())  # Add new learned words to history
+        history.saveTrueToFile(historyFile)  # Save the updated history
 
     dictionary.saveAllToFile(dictionaryFile)
 
@@ -190,7 +196,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Tag words from a TSV file based on their presence in a text corpus.")
     parser.add_argument("text_file", help="Path to the text file used as the corpus.")
     parser.add_argument("tsv_file", help="Path to the TSV wordlist file (input and output).")
-    parser.add_argument("-history", type=str, default=None, help="Optional path to a TSV file that stores previously learned words")
+    parser.add_argument("-history", type=str, default="anki_history.tsv", help="Optional path to a TSV file that stores previously learned words")
     parser.add_argument("--disable-history", action="store_true", help="Disable storing history")
     parser.add_argument("--required-count", type=int, default=1, help="Minimum number of occurrences required to tag a word. (default: 1)")
     args = parser.parse_args()

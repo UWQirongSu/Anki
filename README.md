@@ -46,7 +46,7 @@ Parameters:
 ### Flags
 
 - `-history <history_file>`:  
-  **Optional**. Path to a TSV file that stores previously learned words. This file helps ensure that you don't tag words you've already learned in the past.
+  **Optional**. Path to a TSV file that stores previously learned words. This file helps ensure that you don't tag words you've already learned in the past. if unspecified, it defaults to anki_history.tsv. Can be disabled with the `--disable-history` flag.
 
 - `--disable-history`:  
   **Optional**. Disables storing history. If used, the program will not update or use the history file.
