@@ -2,6 +2,75 @@ import os
 import re
 import argparse
 
+class AnkiWord:
+    def __init__(self, id, simplified, traditional, pronunciation, meaning, translation, extra1, extra2, status):
+        self.id = id  # ID of the word
+        self.simplified = simplified  # Simplified Chinese word
+        self.traditional = traditional  # Traditional Chinese word
+        self.pronunciation = pronunciation  # Pinyin pronunciation
+        self.meaning = meaning  # Meaning of the word in another language
+        self.translation = translation  # English translation
+        self.extra1 = extra1  # Some extra field (e.g., tags or notes)
+        self.extra2 = extra2  # Another extra field
+        self.status = status  # Some status field (e.g., learned or not)
+
+    def __repr__(self):
+        return f"AnkiWord(id={self.id}, simplified={self.simplified}, traditional={self.traditional}, " \
+               f"pronunciation={self.pronunciation}, meaning={self.meaning}, translation={self.translation})"
+
+class AnkiWordList:
+    def __init__(self):
+        self.words = []  # List to store AnkiWord objects
+
+    def add_word(self, word):
+        if isinstance(word, AnkiWord):
+            self.words.append(word)
+        else:
+            print("Only AnkiWord instances can be added")
+
+    def get_word_by_id(self, word_id):
+        for word in self.words:
+            if word.id == word_id:
+                return word
+        return None
+
+    def load_from_file(self, file_name):
+        # Load words from a file and populate the word list (this can be customized)
+        try:
+            with open(file_name, "r", encoding="utf-8") as file:
+                for line in file:
+                    # Assuming a comma-separated values structure for the word entry
+                    parts = line.strip().split(",")
+                    if len(parts) >= 9:  # Ensure there's enough data
+                        word = AnkiWord(
+                            id=parts[0],
+                            simplified=parts[1],
+                            traditional=parts[2],
+                            pronunciation=parts[3],
+                            meaning=parts[4],
+                            translation=parts[5],
+                            extra1=parts[6],
+                            extra2=parts[7],
+                            status=parts[8]
+                        )
+                        self.add_word(word)
+        except Exception as e:
+            print(f"Error loading file {file_name}: {e}")
+
+    def save_to_file(self, file_name):
+        # Save the word list to a file
+        try:
+            with open(file_name, "w", encoding="utf-8") as file:
+                for word in self.words:
+                    file.write(f"{word.id},{word.simplified},{word.traditional},{word.pronunciation},{word.meaning},"
+                               f"{word.translation},{word.extra1},{word.extra2},{word.status}\n")
+        except Exception as e:
+            print(f"Error saving to file {file_name}: {e}")
+
+    def __repr__(self):
+        return f"AnkiWordList with {len(self.words)} words"
+
+
 '''
 def anki_parse(textFile, tagsFile, searchIdx, tagIdx):
 Inputs:
@@ -19,7 +88,6 @@ After this, the tags in the TSV file are updated accordingly.
 '''
 def anki_parse(textFile, tagsFile, searchIdx, tagIdx):
     print(f"textFile: {textFile}, tagsFile: {tagsFile}, Search Index: {searchIdx}, Tag Index: {tagIdx}")
-    
     wordList = anki_getWordList(tagsFile)  # Get the word list
     anki_tagsClear(tagsFile, tagIdx)  # Clear tags first
     anki_searchAndTag(textFile, "chapter1", 1, wordList, tagsFile, searchIdx, tagIdx)  # Pass wordList and tagsFile
@@ -108,23 +176,33 @@ Outputs:
 Purpose:
 This function searches for each word in the wordList within the corpus (textFile). If a word appears at least requiredCount times in the textFile, it adds the specified tag to that word's tag field in the wordList. After processing, it saves the updated word list back to the tagsFile.
 '''
-def anki_searchAndTag(directory, tag, requiredCount, wordList, tagsFile, searchIdx, tagIdx):
-    fileList = anki_getFileList(directory)
+def anki_searchAndTag(textFile, tag, requiredCount, wordList, tagsFile, searchIdx, tagIdx):
+    # fileList = anki_getFileList(directory)
     index = 0
     count = 0
     for word in wordList:
         index += 1
         if len(word) >= tagIdx:
             searchWord = word[searchIdx]
-            if anki_isInCorpus(searchWord, fileList, requiredCount):
+            found = False
+
+            # for fileName in fileList:
+            if anki_fileContainsWord(textFile, searchWord, requiredCount):
+                found = True
+                break
+
+            if found:
                 tags = word[tagIdx].split(" ")
                 if tag not in tags:
                     tags.append(tag)
                     word[tagIdx] = " ".join(tags)
                 count += 1
-            if index % 500 == 0:
-                print(f"{index}: {count}/{index}")
+
+        if index % 500 == 0:
+            print(f"{index}: {count}/{index}")
+
     anki_saveWordList(wordList, tagsFile)
+
 
 '''
 def anki_tagsClear(tagsFile, tagIdx):
@@ -180,13 +258,44 @@ Outputs:
 Purpose:
 This function checks whether a given word appears in any of the files in fileList at least requiredCount times. It returns True if the word meets the required count, otherwise, it returns False.
 '''
-def anki_isInCorpus(word, fileList, requiredCount):
+def anki_isInCorpus(word, fileList, requiredCount): 
     wordCount = 0
     for fileName in fileList:
         with open(fileName, encoding="utf8") as file:
             wordCount += file.read().count(word)
             if wordCount >= requiredCount:
                 return True
+    return False
+
+'''
+def anki_fileContainsWord(fileName, word, requiredCount):
+Inputs:
+    char[][] fileName : The list of file paths (text files) to search through.
+    char[] word : The word to search for in the corpus (text file).
+    int requiredCount : The minimum number of occurrences of the word in the corpus required to consider it found.
+
+Outputs:
+    True (bool): If the word appears in the corpus at least requiredCount times.
+    False (bool): If the word does not appear in the corpus the required number of times.
+
+Purpose:
+This function checks whether a given word appears in any of the files in fileList at least requiredCount times. It returns True if the word meets the required count, otherwise, it returns False.
+'''
+def anki_fileContainsWord(fileName, word, requiredCount):
+    if not isinstance(word, str) or not word.strip():
+        print(f"Invalid word: '{word}'")
+        return False
+    if not isinstance(requiredCount, int) or requiredCount <= 0:
+        print(f"Invalid requiredCount: {requiredCount}")
+        return False
+    if not os.path.isfile(fileName):
+        print(f"File not found or not a file: {fileName}")
+        return False
+
+    with open(fileName, encoding="utf8") as file:
+        content = file.read()
+        if content.count(word) >= requiredCount:
+            return True
     return False
 
 if __name__ == "__main__":
