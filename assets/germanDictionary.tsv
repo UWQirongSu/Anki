@@ -1,0 +1,99 @@
+id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
+1	Apfel		AH-pfel	Apple	Apfel			True
+2	Haus		Howss	House	Haus			True
+3	Katze		KA-tse	Cat	Katze			True
+4	Auto		AH-toh	Car	Auto			False
+5	Freund		Froind	Friend	Freund			True
+6	schnell		SHNEL	Fast	Schnell			True
+7	schön		Shurn	Beautiful	Schön			True
+8	laufen		LOU-fen	To run	Laufen			False
+9	trinken		TRIN-ken	To drink	Trinken			False
+10	sprechen		SHPREH-ken	To speak	Sprechen			False
+11	Tisch		Tish	Table	Tisch			True
+12	Fenster		FEN-ster	Window	Fenster			False
+13	Freundlich		FROINT-lish	Friendly	Freundlich			False
+14	groß		GROSS	Big	Groß			False
+15	klein		KLYN	Small	Klein			False
+16	Himmel		HIM-el	Sky	Himmel			False
+17	Erde		AIR-duh	Earth	Erde			False
+18	Wasser		VAH-ser	Water	Wasser			False
+19	Freundschaft		FROINT-shaft	Friendship	Freundschaft			False
+20	lieben		LEE-ben	To love	Lieben			False
+21	schlafen		SHLAH-fen	To sleep	Schlafen			False
+22	sehen		ZAY-en	To see	Sehen			False
+23	hören		HUR-en	To hear	Hören			False
+24	gehen		GAY-en	To go	Gehen			True
+25	arbeiten		AR-bei-ten	To work	Arbeiten			False
+26	lachen		LAH-chen	To laugh	Lachen			False
+27	weinen		WHY-nen	To cry	Weinen			False
+28	kommen		KOM-en	To come	Kommen			False
+29	essen		ES-en	To eat	Essen			False
+30	trinken		TRIN-ken	To drink	Trinken			False
+31	suchen		ZOO-ken	To search	Suchen			False
+32	finden		FIN-den	To find	Finden			False
+33	sprechen		SHPREH-ken	To speak	Sprechen			False
+34	vergessen		FER-GES-en	To forget	Vergessen			False
+35	denken		DEN-ken	To think	Denken			False
+36	kaufen		KAU-fen	To buy	Kaufen			False
+37	verkaufen		FER-KAU-fen	To sell	Verkaufen			False
+38	lesen		LEH-zen	To read	Lesen			False
+39	schreiben		SHRY-bren	To write	Schreiben			False
+40	telefonieren		TEH-leh-foh-NEER	To phone	Telefonieren			False
+41	kochen		KOH-ken	To cook	Kochen			False
+42	backen		BAH-ken	To bake	Backen			False
+43	spielen		SHPEE-len	To play	Spielen			False
+44	tanzen		TAHN-zen	To dance	Tanzen			False
+45	singen		ZIN-gen	To sing	Singen			False
+46	fliegen		FLEE-gen	To fly	Fliegen			False
+47	fahren		FAH-ren	To drive	Fahren			False
+48	laufen		LOU-fen	To run	Laufen			False
+49	schwimmen		SHVIH-men	To swim	Schwimmen			False
+50	helfen		HEL-fen	To help	Helfen			False
+51	suchen		ZOO-ken	To search	Suchen			False
+52	lieben		LEE-ben	To love	Lieben			False
+53	arbeiten		AR-bai-ten	To work	Arbeiten			False
+54	fragen		FRAH-gen	To ask	Fragen			False
+55	antworten		AN-twort-en	To answer	Antworten			False
+56	lachen		LAH-chen	To laugh	Lachen			False
+57	weinen		WHY-nen	To cry	Weinen			False
+58	fliegen		FLEE-gen	To fly	Fliegen			False
+59	schwimmen		SHVIH-men	To swim	Schwimmen			False
+60	laufen		LOU-fen	To run	Laufen			False
+61	sprechen		SHPREH-ken	To speak	Sprechen			False
+62	fahren		FAH-ren	To drive	Fahren			False
+63	sehen		ZAY-en	To see	Sehen			False
+64	hören		HOH-ren	To hear	Hören			False
+65	kaufen		KAU-fen	To buy	Kaufen			False
+66	verkaufen		FER-KAU-fen	To sell	Verkaufen			False
+67	lesen		LEH-zen	To read	Lesen			False
+68	schreiben		SHRY-bren	To write	Schreiben			False
+69	wohnen		VOH-nen	To live	Wohnen			True
+70	bauen		BOW-en	To build	Bauen			False
+71	kochen		KOH-ken	To cook	Kochen			False
+72	backen		BAH-ken	To bake	Backen			False
+73	reisen		RYE-zen	To travel	Reisen			False
+74	malen		MAH-len	To paint	Malen			False
+75	tanzen		TAHN-zen	To dance	Tanzen			False
+76	singen		ZIN-gen	To sing	Singen			False
+77	kochen		KOH-ken	To cook	Kochen			False
+78	laufen		LOU-fen	To run	Laufen			False
+79	sehen		ZAY-en	To see	Sehen			False
+80	helfen		HEL-fen	To help	Helfen			False
+81	lesen		LEH-zen	To read	Lesen			False
+82	schreiben		SHRY-bren	To write	Schreiben			False
+83	fahren		FAH-ren	To drive	Fahren			False
+84	laufen		LOU-fen	To run	Laufen			False
+85	sprechen		SHPREH-ken	To speak	Sprechen			False
+86	singen		ZIN-gen	To sing	Singen			False
+87	sehen		ZAY-en	To see	Sehen			False
+88	hören		HOH-ren	To hear	Hören			False
+89	singen		ZIN-gen	To sing	Singen			False
+90	lachen		LAH-chen	To laugh	Lachen			False
+91	weinen		WHY-nen	To cry	Weinen			False
+92	kochen		KOH-ken	To cook	Kochen			False
+93	backen		BAH-ken	To bake	Backen			False
+94	spielen		SHPEE-len	To play	Spielen			False
+95	tanzen		TAHN-zen	To dance	Tanzen			False
+96	fliegen		FLEE-gen	To fly	Fliegen			False
+97	fahren		FAH-ren	To drive	Fahren			False
+98	laufen		LOU-fen	To run	Laufen			False

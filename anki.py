@@ -34,13 +34,19 @@ class AnkiWordList:
         for word in self.words:
             # Count how many times either form appears
             simplified_count = text.count(word.simplified)
-            traditional_count = text.count(word.traditional)
+        
+            # Set traditional_count to zero if word.traditional is an empty string
+            if word.traditional != "":
+                traditional_count = text.count(word.traditional)
+            else:
+                traditional_count = 0
 
             total_count = simplified_count + traditional_count
             word.tag = total_count >= requiredCount
 
-            # if word.tag:
-                # print(f"FOUND: {word.simplified}/{word.traditional} appeared {total_count} times")
+            if word.tag:
+                print(f"FOUND: {word.simplified}/{word.traditional} appeared {total_count} times")
+
 
 
     def addWord(self, word):
