@@ -80,3 +80,11 @@ python anki.py assets/text.txt assets/dictionary.tsv --disable-history
 
 
 ```
+
+### Example 4: With Multiple Text Files
+
+```bash
+python anki.py assets/text1.txt assets/text2.txt assets/text3.txt assets/dictionary.tsv
+
+
+```

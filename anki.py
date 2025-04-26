@@ -42,9 +42,8 @@ class AnkiDictionary:
                 traditional_count = 0
 
             total_count = simplified_count + traditional_count
-            word.tag = total_count >= requiredCount
-
-            if word.tag:
+            if(total_count >= requiredCount):
+                word.tag = True
                 print(f"FOUND: {word.simplified}/{word.traditional} appeared {total_count} times")
 
     def tagsAndNot(self, history):
@@ -152,7 +151,7 @@ class AnkiDictionary:
         return f"AnkiDictionary with {len(self.words)} words"
 
 '''
-def anki_parse(textFile, dictionaryFile, requiredCount):
+def anki_parse(textFiles, dictionaryFile, requiredCount):
 Inputs:
     char[] textFile : The path to the text file (corpus) that contains the content to search for words.
     char[] dictionaryFile : The path to the TSV file containing the word list. This file is both an input and an output (it holds the words and their tags).
@@ -165,13 +164,14 @@ Purpose:
 This is the entry point of the program. It first clears any tags in the tagsFile using AnkiWord.clearTags(), then searches for words in the textFile using AnkiWord.tagFromFile(). 
 After this, the tags in the TSV file are updated accordingly.
 '''
-def anki_parse(textFile, dictionaryFile, requiredCount, historyFile, disableHistoryFlag):
+def anki_parse(textFiles, dictionaryFile, requiredCount, historyFile, disableHistoryFlag):
     # add input validation
-    print(f"textFile: {textFile}, dictionaryFile: {dictionaryFile}, requiredCount: {requiredCount}, disableHistoryFlag: {disableHistoryFlag}")
+    print(f"textFiles: {textFiles}, dictionaryFile: {dictionaryFile}, requiredCount: {requiredCount}, disableHistoryFlag: {disableHistoryFlag}")
     dictionary = AnkiDictionary()
     dictionary.loadFromFile(dictionaryFile)
     dictionary.clearTags()
-    dictionary.tagFromFile(textFile, requiredCount)
+    for textFile in textFiles:
+        dictionary.tagFromFile(textFile, requiredCount)
     print(dictionary)
 
     if historyFile and not disableHistoryFlag:
@@ -194,7 +194,7 @@ def anki_parse(textFile, dictionaryFile, requiredCount, historyFile, disableHist
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Tag words from a TSV file based on their presence in a text corpus.")
-    parser.add_argument("text_file", help="Path to the text file used as the corpus.")
+    parser.add_argument("text_file", nargs='+', help="Path to the text files used as the corpus.")
     parser.add_argument("tsv_file", help="Path to the TSV wordlist file (input and output).")
     parser.add_argument("-history", type=str, default="anki_history.tsv", help="Optional path to a TSV file that stores previously learned words")
     parser.add_argument("--disable-history", action="store_true", help="Disable storing history")
