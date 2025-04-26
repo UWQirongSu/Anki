@@ -1,20 +1,20 @@
 id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
-1	爱	愛	ài	amar	love		爱	True
-2	爱好	愛好	ài hào	pasatiempo	hobby		爱好	True
-3	爸爸	爸爸	bàba	papá	dad		爸爸	True
-4	白（形）	白	bái	sin resultados; en vano; esfuerzos de desechos; blanco	without results; in vain; waste efforts; white		白	True
+1	爱	愛	ài	amar	love		爱	False
+2	爱好	愛好	ài hào	pasatiempo	hobby		爱好	False
+3	爸爸	爸爸	bàba	papá	dad		爸爸	False
+4	白（形）	白	bái	sin resultados; en vano; esfuerzos de desechos; blanco	without results; in vain; waste efforts; white		白	False
 5	八	八	bā	ocho	eight		八	False
-6	白天	白天	bái tiān	día	day		白天	True
+6	白天	白天	bái tiān	día	day		白天	False
 7	班	班	bān	clase	class		班	False
 8	百	百	bǎi	centenar	hundred		百	False
-9	吧	吧	ba	(partícula de interjección)	(interjection particle)		吧	True
-10	半	半	bàn	medio	half		半	True
-11	半年	半年	bàn nián	medio año	half a year		半年	True
+9	吧	吧	ba	(partícula de interjección)	(interjection particle)		吧	False
+10	半	半	bàn	medio	half		半	False
+11	半年	半年	bàn nián	medio año	half a year		半年	False
 12	半天	半天	bàn tiān	medio día	half day		半天	False
 13	帮	幫	bāng	ayuda	help		帮	False
 14	帮忙	幫忙	bāng máng	ayuda	help		帮忙	False
-15	包	包	bāo	paquete	package		包	True
-16	包子	包子	bāo zi	bollo	bun		包子	True
+15	包	包	bāo	paquete	package		包	False
+16	包子	包子	bāo zi	bollo	bun		包子	False
 17	杯	盃	bēi	taza	cup		杯	False
 18	杯子	杯子	bēi zi	taza	cup		杯子	False
 19	北边	北邊	běi biān	lado norte	North side		北边	False
@@ -23,9 +23,9 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 22	北	北	běi	norte	north		北	False
 23	本子	本子	běn zi	libro	book		本子	False
 24	别（副）	彆	bié	no; dejar; separado; alfiler	do not; leave; separate; pin		别	False
-25	别的	別的	bié de	otro	other		别的	True
-26	别人	別人	bié·rén	otra gente	other people		别人	True
-27	病	病	bìng	enfermedad	disease		病	True
+25	别的	別的	bié de	otro	other		别的	False
+26	别人	別人	bié·rén	otra gente	other people		别人	False
+27	病	病	bìng	enfermedad	disease		病	False
 28	病人	病人	bìng rén	paciente	patient		病人	False
 29	比	比	bǐ	partícula utilizada para comparación	particle used for comparison		比	False
 30	不大	不大	bú dà	no grande	not big		不大	False
@@ -34,27 +34,27 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 33	菜	菜	cài	plato	dish		菜	False
 34	不对	不對	bú duì	equivocado	wrong		不对	False
 35	差	差	chà	difiere de; malo; escaso de	differ from; bad; short of		差	False
-36	不	不	bù	no	No		不	True
-37	茶	茶	chá	té	tea		茶	True
+36	不	不	bù	no	No		不	False
+37	茶	茶	chá	té	tea		茶	False
 38	常常	常常	cháng cháng	a menudo	often		常常	False
-39	常	常	cháng	a menudo	often		常	True
-40	车	車	chē	auto	car		车	True
+39	常	常	cháng	a menudo	often		常	False
+40	车	車	chē	auto	car		车	False
 41	唱歌	唱歌	chàng gē	cantar	sing		唱歌	False
 42	车上	車上	chē shàng	en el auto	in the car		车上	False
 43	车票	車票	chē piào	boleto	ticket		车票	False
 44	唱	唱	chàng	cantar	sing		唱	False
-45	吃	喫	chī	comer	eat		吃	True
-46	车站	車站	chē zhàn	estación	station		车站	True
-47	吃饭	吃飯	chī fàn	tener comida	have meal		吃饭	True
-48	出来	出來	chū lái	venir	come		出来	True
-49	出	齣	chū	afuera	out		出	True
+45	吃	喫	chī	comer	eat		吃	False
+46	车站	車站	chē zhàn	estación	station		车站	False
+47	吃饭	吃飯	chī fàn	tener comida	have meal		吃饭	False
+48	出来	出來	chū lái	venir	come		出来	False
+49	出	齣	chū	afuera	out		出	False
 50	出去	出去	chū qù	salir	go out		出去	False
 51	床	牀	chuáng	cama	bed		床	False
-52	次（量）	次	cì	(mida la palabra para tiempos, frecuencia) segunda categoría; secundario	(measure word for times, frequency) second-rate; secondary		次	True
-53	穿	穿	chuān	tener puesto	wear		穿	True
-54	错	錯	cuò	equivocado	wrong		错	True
-55	从	從	cóng	de	from		从	True
-56	打（动）	打	dǎ	huelga; golpear; romper; luchar; construir; derrotar; tomar; de; desde	strike; hit; break; fight; build; beat; take; from; since		打	True
+52	次（量）	次	cì	(mida la palabra para tiempos, frecuencia) segunda categoría; secundario	(measure word for times, frequency) second-rate; secondary		次	False
+53	穿	穿	chuān	tener puesto	wear		穿	False
+54	错	錯	cuò	equivocado	wrong		错	False
+55	从	從	cóng	de	from		从	False
+56	打（动）	打	dǎ	huelga; golpear; romper; luchar; construir; derrotar; tomar; de; desde	strike; hit; break; fight; build; beat; take; from; since		打	False
 57	打车	打車	dǎ chē	toma un taxi	take a taxi		打车	False
 58	打电话	打電話	dǎ diàn huà	hacer una llamada telefónica	make a phonecall		打电话	False
 59	打开	打開	dǎ kāi	encender	turn on		打开	False
@@ -63,40 +63,40 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 62	大	大	dà	bastante grande	large, big		大	False
 63	大学生	大學生	dà xué shēng	estudiante universitario	university student		大学生	False
 64	得到	得到	dé dào	conseguir	get		得到	False
-65	到	到	dào	alcanzar	reach		到	True
+65	到	到	dào	alcanzar	reach		到	False
 66	等（动）	等	děng	etc.; esperar	etc.; wait		等	False
 67	地点	地點	dìdiǎn	ubicación	location		地点	False
 68	地	地	de	palabra auxiliar	auxiliary word		地	False
 69	地方	地方	dìfang	local	local		地方	False
 70	地上	地上	dì shàng	en el piso	on the ground		地上	False
-71	的	的	de	(aux.)	(aux.)		的	True
+71	的	的	de	(aux.)	(aux.)		的	False
 72	地图	地圖	dìtú	mapa	Map		地图	False
 73	弟弟	弟弟	dìdi	love	love		弟弟	False
 74	第（第二）	第	dì （ dì èr ）	palabra auxiliar para números ordinales (segundo)	auxiliary word for ordinal numbers (second )		第	False
 75	点	點	diǎn	lugar	spot		点	False
-76	电话	電話	diàn huà	teléfono	phone		电话	True
-77	电	電	diàn	electricidad	electricity		电	True
+76	电话	電話	diàn huà	teléfono	phone		电话	False
+77	电	電	diàn	electricidad	electricity		电	False
 78	电脑	電腦	diànnǎo	computadora	Computer		电脑	False
 79	电视机	電視機	diàn shì jī	televisión	television		电视机	False
 80	电影	電影	diànyǐng	película	Film		电影	False
 81	电视	電視	diànshì	televisión	television		电视	False
 82	电影院	電影院	diàn yǐng yuàn	cine; cine	cinema; movie theater		电影院	False
 83	东边	東邊	dōng biān	lado este	east side		东边	False
-84	东	東	dōng	este	east		东	True
-85	东西	東西	dōngxi	cosa	thing		东西	True
+84	东	東	dōng	este	east		东	False
+85	东西	東西	dōngxi	cosa	thing		东西	False
 86	动	動	dòng	mover	move		动	False
 87	动作	動作	dòngzuò	acción	action		动作	False
 88	读	讀	dú	leer	read		读	False
-89	都	都	dōu	todo	all		都	True
+89	都	都	dōu	todo	all		都	False
 90	读书	讀書	dú shū	lectura; estudiar	reading; study		读书	False
 91	对不起	對不起	duìbuqǐ	lo lamento.	I’m sorry.		对不起	False
-92	多（形、代）	多	duō	muchos; mucho; más	many; much; more		多	True
+92	多（形、代）	多	duō	muchos; mucho; más	many; much; more		多	False
 93	多少	多少	duōshao	cuánto	how much		多少	False
 94	儿子	兒子	érzi	hijo	Son		儿子	False
-95	饿	餓	è	hambriento	hungry		饿	True
+95	饿	餓	è	hambriento	hungry		饿	False
 96	对（形）	對	duì	bien; a; en; rostro; ser opuesto; respuesta	right; to; at; face; be opposite; answer		对	False
 97	二	二	èr	dos	Two		二	False
-98	饭	飯	fàn	arroz; comida	rice; meal		饭	True
+98	饭	飯	fàn	arroz; comida	rice; meal		饭	False
 99	饭店	飯店	fàndiàn	restaurante	restaurant		饭店	False
 100	房间	房間	fángjiān	habitación	Room		房间	False
 101	房子	房子	fáng zi	casa; edificio	house; building		房子	False
@@ -105,7 +105,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 104	飞	飛	fēi	volar	fly		飞	False
 105	放学	放學	fàng xué	fuera de la escuela	off school		放学	False
 106	飞机	飛機	fēijī	aeronave	aircraft		飞机	False
-107	非常	非常	fēicháng	muy	very		非常	True
+107	非常	非常	fēicháng	muy	very		非常	False
 108	分（名、量）	分	fēn	minuto; punto; parte; (palabra de medida) dividir; parte; distribuir	minute; point; part; (measure word) divide; part; distribute		分	False
 109	风	風	fēng	viento	wind		风	False
 110	干	幹	gān	seco	dry		干	False
@@ -116,14 +116,14 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 115	哥哥	哥哥	gēge	hermano mayor	elder brother		哥哥	False
 116	歌	謌	gē	canción	song		歌	False
 117	干什么	幹甚麼	gàn shén me	qué hacer	What to do		干什么	False
-118	个	箇	gè	individual	individual		个	True
-119	给	給	gěi	dar	give		给	True
+118	个	箇	gè	individual	individual		个	False
+119	给	給	gěi	dar	give		给	False
 120	跟	跟	gēn	con	with		跟	False
 121	工人	工人	gōngrén	obrero	Worker		工人	False
 122	工作	工作	gōngzuò	trabajar	work		工作	False
 123	关（动）	關	guān	aprobar; punto de control; aduana; mecanismo; barrera; cerrar; cerca; apagar	pass; check point; customhouse; mechanism; barrier; shut; close; turn off		关	False
 124	关上	關上	guān shàng	cerrar; cerrar a; apagar	close;shut to; turn off		关上	False
-125	国	國	guó	país; estado; nación	country; state; nation		国	True
+125	国	國	guó	país; estado; nación	country; state; nation		国	False
 126	国家	國家	guójiā	país	Country		国家	False
 127	贵	貴	guì	noble	noble		贵	False
 128	国外	國外	guó wài	extranjero; de ultramar; en el extranjero	foreign; oversea; abroad		国外	False
@@ -134,18 +134,18 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 133	汉语	漢語	hànyǔ	chino	Chinese		汉语	False
 134	还	還	hái	también; aún; todavía	also; still; yet		还	False
 135	汉字	漢字	hàn zì	personaje chino	Chinese character		汉字	False
-136	好（形）	好	hǎo	bueno; bien	well; fine; okay; good		好	True
+136	好（形）	好	hǎo	bueno; bien	well; fine; okay; good		好	False
 137	好吃	好吃	hǎochī	delicioso	Yummy		好吃	False
 138	好看	好看	hǎo kàn	buen mozo	good looking		好看	False
 139	好听	好聽	hǎo tīng	agradable escuchar	pleasant to hear		好听	False
 140	好玩儿	好玩兒	hǎo wánr	divertido; interesante	fun; interesting		好玩儿	False
 141	号	號	hào	número/fecha	Number/date		号	False
-142	喝	喝	hē	beber	drink		喝	True
-143	和	龢	hé	y	and		和	True
-144	很	很	hěn	muy	very		很	True
-145	后	後	hòu	atrás; detrás; después; más tarde	back; behind; after; later		后	True
+142	喝	喝	hē	beber	drink		喝	False
+143	和	龢	hé	y	and		和	False
+144	很	很	hěn	muy	very		很	False
+145	后	後	hòu	atrás; detrás; después; más tarde	back; behind; after; later		后	False
 146	后边	後邊	hòu biān	detrás; atrás	behind; back		后边	False
-147	话	諙	huà	palabra; palabras	word; words		话	True
+147	话	諙	huà	palabra; palabras	word; words		话	False
 148	后天	後天	hòu tiān	pasado mañana	day after tomorrow		后天	False
 149	坏	壞	huài	malo	bad		坏	False
 150	回答	回答	huídá	respuesta	Answer		回答	False
@@ -176,20 +176,20 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 175	介绍	介紹	jièshào	introducir	introduce		介绍	False
 176	今年	今年	jīn nián	este año	this year		今年	False
 177	姐姐	姐姐	jiějie	hermana mayor	elder sister		姐姐	False
-178	今天	今天	jīntiān	hoy	Today		今天	True
+178	今天	今天	jīntiān	hoy	Today		今天	False
 179	进	進	jìn	ingresar	enter		进	False
 180	进来	進來	jìn lái	adelante	come in		进来	False
 181	进去	進去	jìn qù	entra	go in		进去	False
-182	就	就	jiù	tan pronto como; de inmediato; entonces	as soon as; right away; then		就	True
+182	就	就	jiù	tan pronto como; de inmediato; entonces	as soon as; right away; then		就	False
 183	觉得	覺得	juéde	pensar	Think		觉得	False
 184	九	九	jiǔ	nueve	Nine		九	False
 185	开	開	kāi	abierto	open		开	False
 186	开车	開車	kāi chē	conducir; andar en coche	drive; drive a car		开车	False
 187	开会	開會	kāi huì	tener una reunión	have a meeting		开会	False
 188	开玩笑	開玩笑	kāiwánxiào	burlarse de	Make fun of		开玩笑	False
-189	看	看	kàn	(kān) cuidar de; mantener bajo vigilancia (kàn) ver	(kān) take care of; keep under surveillance (kàn) see		看	True
+189	看	看	kàn	(kān) cuidar de; mantener bajo vigilancia (kàn) ver	(kān) take care of; keep under surveillance (kàn) see		看	False
 190	看病	看病	kàn bìng	ver un doctor	see a doctor		看病	False
-191	看到	看到	kàn dào	ver	see		看到	True
+191	看到	看到	kàn dào	ver	see		看到	False
 192	考	考	kǎo	prueba; examinar	test; examine		考	False
 193	看见	看見	kànjiàn	vidente	seeing		看见	False
 194	考试	考試	kǎoshì	examen	Examination		考试	False
@@ -200,12 +200,12 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 199	口	口	kǒu	boca	mouth		口	False
 200	块	塊	kuài	bloquear	block		块	False
 201	快	快	kuài	rápido	fast		快	False
-202	来	來	lái	venir	come		来	True
+202	来	來	lái	venir	come		来	False
 203	来到	來到	lái dào	venir; llegar	come; arrive		来到	False
 204	老（形）	老	lǎo	viejo; envejecido; siempre; constantemente	old; aged; always; constantly		老	False
 205	老人	老人	lǎo rén	las personas de edad; los ancianos	old people; the aged		老人	False
 206	老师	老師	lǎoshī	maestro	Teacher		老师	False
-207	了	瞭	le	marcador en tiempo pasado	past tense marker		了	True
+207	了	瞭	le	marcador en tiempo pasado	past tense marker		了	False
 208	累	纍	lèi	cansado	tired		累	False
 209	冷	冷	lěng	frío	cold		冷	False
 210	里	里	lǐ	en	in		里	False
@@ -227,7 +227,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 226	慢	慢	màn	lento	slow		慢	False
 227	忙	忙	máng	ocupado	busy		忙	False
 228	毛（量）	毛	máo	una unidad fraccional de dinero en china; cabello; pelo	a fractional unit of money in China; hair; fur		毛	False
-229	没	沒	méi	no	no		没	True
+229	没	沒	méi	no	no		没	False
 230	没关系	沒關係	méiguānxi	ningún problema	No problem		没关系	False
 231	没什么	沒甚麼	méi shén me	no es nada	It’s nothing		没什么	False
 232	没有	沒有	méi yǒu	no tengo; no	have not; no		没有	False
@@ -250,7 +250,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 249	哪些	哪些	nǎ xiē	cual	which		哪些	False
 250	拿	拿	ná	llevar	take		拿	False
 251	那边	那邊	nà biān	allá	there		那边	False
-252	那（代）	那	nà	entonces; en ese caso; eso	then; in that case; that		那	True
+252	那（代）	那	nà	entonces; en ese caso; eso	then; in that case; that		那	False
 253	那里	那裡	nà lǐ	allá	there		那里	False
 254	那些	那些	nà xiē	aquellos	those		那些	False
 255	奶	嬭	nǎi	leche	milk		奶	False
@@ -265,26 +265,26 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 264	南边	南邊	nán biān	sur; lado sur	south; south side		南边	False
 265	呢	呢	ne	palabra auxiliar	auxiliary word		呢	False
 266	难	難	nán	difícil	hard, difficult		难	False
-267	你	你	nǐ	tú	you		你	True
+267	你	你	nǐ	tú	you		你	False
 268	能	能	néng	poder	can		能	False
 269	你们	你們	nǐ men	tú	you		你们	False
 270	您	您	nín	tú	you		您	False
 271	牛奶	牛奶	niúnǎi	leche	milk		牛奶	False
 272	女	女	nǚ	mujer	woman		女	False
-273	年	秊	nián	año	year		年	True
+273	年	秊	nián	año	year		年	False
 274	女孩儿	女孩兒	nǚ háir	chica	girl		女孩儿	False
 275	女儿	女兒	nǚ’ér	hija	daughter		女儿	False
 276	女生	女生	nǚ shēng	chica	girl		女生	False
 277	女朋友	女朋友	nǚ péng yǒu	novia	girlfriend		女朋友	False
 278	旁边	旁邊	pángbiān	lado	Side		旁边	False
-279	跑	跑	pǎo	correr	run		跑	True
+279	跑	跑	pǎo	correr	run		跑	False
 280	女人	女人	nǚ ren	mujer	woman		女人	False
 281	朋友	朋友	péngyou	amigo	Friend		朋友	False
 282	票	票	piào	boleto	ticket		票	False
 283	七	七	qī	siete	Seven		七	False
 284	起床	起床	qǐchuáng	levantarse	Get up		起床	False
-285	起来	起來	qǐlái	levantarse	get up		起来	True
-286	起	起	qǐ	levantarse; comenzar; elevar	get up; start; rise		起	True
+285	起来	起來	qǐlái	levantarse	get up		起来	False
+286	起	起	qǐ	levantarse; comenzar; elevar	get up; start; rise		起	False
 287	汽车	汽車	qì chē	auto	car		汽车	False
 288	前	前	qián	frente	front		前	False
 289	前边	前邊	qián biān	al frente	in front		前边	False
@@ -299,10 +299,10 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 298	球	球	qiú	pelota	ball		球	False
 299	去年	去年	qùnián	el año pasado	Last year		去年	False
 300	热	熱	rè	calor	heat		热	False
-301	人	人	rén	gente	people		人	True
-302	认识	認識	rènshi	saber	know		认识	True
+301	人	人	rén	gente	people		人	False
+302	认识	認識	rènshi	saber	know		认识	False
 303	认真	認真	rènzhēn	serio	earnest		认真	False
-304	去	去	qù	ir	go		去	True
+304	去	去	qù	ir	go		去	False
 305	日	日	rì	fecha	date		日	False
 306	日期	日期	rìqī	fecha	Date		日期	False
 307	肉	肉	ròu	carne	meat		肉	False
@@ -323,26 +323,26 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 322	身上	身上	shēn shàng	cuerpo; en el cuerpo de uno	body; on one’s body		身上	False
 323	谁	誰	shéi	oms	who		谁	False
 324	身体	身體	shēntǐ	cuerpo	body		身体	False
-325	生病	生病	shēngbìng	caer enfermo	Fall ill		生病	True
+325	生病	生病	shēngbìng	caer enfermo	Fall ill		生病	False
 326	生气	生氣	shēngqì	enfadarse	get angry		生气	False
 327	十	十	shí	diez	Ten		十	False
-328	时候	時候	shíhou	tiempo	time		时候	True
+328	时候	時候	shíhou	tiempo	time		时候	False
 329	时间	時間	shíjiān	tiempo	time		时间	False
 330	事	事	shì	cosa	thing		事	False
 331	试	試	shì	intentar	try		试	False
 332	生日	生日	shēngrì	cumpleaños	Birthday		生日	False
 333	是不是	是不是	shì bú shì	¿no es así?	isn’t it?		是不是	False
-334	是	昰	shì	sí	yes		是	True
+334	是	昰	shì	sí	yes		是	False
 335	手机	手機	shǒujī	teléfono móvil	Mobile phone		手机	False
 336	手	手	shǒu	mano	hand		手	False
 337	书包	書包	shū bāo	bolsa para la escuela	school bag		书包	False
-338	书	書	shū	libro	book		书	True
+338	书	書	shū	libro	book		书	False
 339	书店	書店	shū diàn	librería	bookstore		书店	False
 340	树	樹	shù	árbol	tree		树	False
 341	水	水	shuǐ	agua	water		水	False
 342	水果	水果	shuǐguǒ	frutas	Fruits		水果	False
 343	睡	睡	shuì	dormir	sleep		睡	False
-344	说	說	shuō	hablar	speak		说	True
+344	说	說	shuō	hablar	speak		说	False
 345	说话	說話	shuōhuà	hablar	talk		说话	False
 346	睡觉	睡覺	shuìjiào	dormir	sleep		睡觉	False
 347	送	送	sòng	dar	give		送	False
@@ -350,16 +350,16 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 349	岁	歲	suì	año, edad	year, age		岁	False
 350	他们	他們	tā men	ellos	they		他们	False
 351	什么	什麼	shénme	qué	What		什么	False
-352	她	她	tā	ella	she		她	True
+352	她	她	tā	ella	she		她	False
 353	她们	她們	tā men	ellos	they		她们	False
-354	天	天	tiān	día	day		天	True
-355	他	他	tā	él	he		他	True
+354	天	天	tiān	día	day		天	False
+355	他	他	tā	él	he		他	False
 356	太	太	tài	también	too		太	False
 357	天气	天氣	tiānqì	clima	weather		天气	False
 358	听到	聽到	tīng dào	escuchar	hear		听到	False
 359	听见	聽見	tīng jiàn	escuchar	hear		听见	False
 360	听写	聽寫	tīng xiě	dictado; dictar	dictation; dictate		听写	False
-361	听	聽	tīng	escuchar	hear		听	True
+361	听	聽	tīng	escuchar	hear		听	False
 362	图书馆	圖書館	túshūguǎn	biblioteca	Library		图书馆	False
 363	外	外	wài	en el extranjero, afuera	abroad, outside		外	False
 364	外边	外邊	wài biān	afuera	outside		外边	False
@@ -375,15 +375,15 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 374	忘记	忘記	wàngjì	olvidar	forget		忘记	False
 375	忘	忘	wàng	olvidar	forget		忘	False
 376	问	問	wèn	preguntar	ask		问	False
-377	我们	我們	wǒmen	nosotros	We		我们	True
-378	我	我	wǒ	i	I		我	True
+377	我们	我們	wǒmen	nosotros	We		我们	False
+378	我	我	wǒ	i	I		我	False
 379	五	五	wǔ	cinco	Five		五	False
 380	午饭	午飯	wǔ fàn	almuerzo	lunch		午饭	False
-381	西	西	xī	oeste	west		西	True
+381	西	西	xī	oeste	west		西	False
 382	西边	西邊	xī biān	oeste; lado oeste	west; west side		西边	False
 383	洗	洗	xǐ	lavar	wash		洗	False
 384	洗手间	洗手間	xǐshǒujiān	baño	Restroom		洗手间	False
-385	喜欢	喜歡	xǐhuan	como	like		喜欢	True
+385	喜欢	喜歡	xǐhuan	como	like		喜欢	False
 386	下（名、动）	下	xià	abajo; bajo; próximo; bajar; bajar	below; under; next; go down; get off		下	False
 387	下班	下班	xià bān	salir del trabajo	get off work		下班	False
 388	下边	下邊	xià biān	abajo; bajo	below; under		下边	False
@@ -394,8 +394,8 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 393	下雨	下雨	xiàyǔ	lluvia	rain		下雨	False
 394	先	先	xiān	antes	before		先	False
 395	先生	先生	xiānsheng	señor	Sir		先生	False
-396	想	想	xiǎng	pensar	think		想	True
-397	现在	現在	xiànzài	ahora	Now		现在	True
+396	想	想	xiǎng	pensar	think		想	False
+397	现在	現在	xiànzài	ahora	Now		现在	False
 398	小	小	xiǎo	pequeño	Small		小	False
 399	小孩儿	小孩兒	xiǎo háir	niño; niño	child; kid		小孩儿	False
 400	小姐	小姐	xiǎojiě	extrañar	Miss		小姐	False
@@ -418,14 +418,14 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 417	学习	學習	xuéxí	estudiar	Study		学习	False
 418	学校	學校	xuéxiào	escuela	School		学校	False
 419	学院	學院	xué yuàn	colega; academia	college; academy		学院	False
-420	要（动）	要	yào	si; desear	if; want		要	True
+420	要（动）	要	yào	si; desear	if; want		要	False
 421	爷爷	爺爺	yéye	abuelo	grandpa		爷爷	False
 422	页	頁	yè	página	page		页	False
 423	衣服	衣服	yīfu	ropa	clothes		衣服	False
-424	也	也	yě	también	also		也	True
-425	医生	醫生	yīshēng	doctor	Doctor		医生	True
+424	也	也	yě	también	also		也	False
+425	医生	醫生	yīshēng	doctor	Doctor		医生	False
 426	医院	醫院	yīyuàn	hospital	Hospital		医院	False
-427	一	一	yī	uno	One		一	True
+427	一	一	yī	uno	One		一	False
 428	一会儿	一會兒	yíhuìr	un rato; en un momento; ahora; un poco de tiempo	awhile; in a moment; presently; A little while		一会儿	False
 429	一块儿	一塊兒	yí kuàir	juntos	together		一块儿	False
 430	一下儿	一下兒	yí xiàr	un poco; un poco de tiempo	a little bit; a little while		一下儿	False
@@ -436,7 +436,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 435	一些	一些	yì xiē	alguno	some		一些	False
 436	一样	一樣	yíyàng	igualmente	equally		一样	False
 437	有的	有的	yǒu de	alguno	some		有的	False
-438	有	有	yǒu	tener	have		有	True
+438	有	有	yǒu	tener	have		有	False
 439	有名	有名	yǒumíng	famoso	Famous		有名	False
 440	用	用	yòng	usar	use		用	False
 441	有时候	有時候	yǒushíhou	a veces	sometimes		有时候	False
@@ -450,17 +450,17 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 449	月	月	yuè	mes	month		月	False
 450	再	再	zài	de nuevo	again		再	False
 451	再见	再見	zàijiàn	adiós	Bye		再见	False
-452	在	在	zài	permanecer; en proceso de	stay; in process of		在	True
+452	在	在	zài	permanecer; en proceso de	stay; in process of		在	False
 453	在家	在傢	zài jiā	en casa	at home		在家	False
 454	早	早	zǎo	temprano	early		早	False
 455	早饭	早飯	zǎo fàn	desayuno	breakfast		早饭	False
 456	早上	早上	zǎoshang	mañana	Morning		早上	False
 457	怎么	怎麽	zěnme	cómo	How		怎么	False
-458	站（名）	站	zhàn	pararse; detener; estación	stand; stop; halt; station		站	True
+458	站（名）	站	zhàn	pararse; detener; estación	stand; stop; halt; station		站	False
 459	找	找	zhǎo	buscar	look for		找	False
 460	找到	找到	zhǎo dào	encontrar	find		找到	False
 461	这边	這邊	zhè biān	aquí	here		这边	False
-462	这	這	zhè	aquí aquí)	Here (here)		这	True
+462	这	這	zhè	aquí aquí)	Here (here)		这	False
 463	这里	這裡	zhè lǐ	aquí	here		这里	False
 464	这儿	這兒	zhèr	aquí	here		这儿	False
 465	这些	這些	zhè xiē	estos	these		这些	False
@@ -484,13 +484,13 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 483	准备	準備	zhǔnbèi	prepararse	Get ready		准备	False
 484	桌子	桌子	zhuōzi	mesa	Table		桌子	False
 485	字	字	zì	palabra, carácter	word, character		字	False
-486	子（桌子）	子	zi （ zhuō zi ）	sufijo sustantivo (mesa)	noun suffix (table)		子	True
+486	子（桌子）	子	zi （ zhuō zi ）	sufijo sustantivo (mesa)	noun suffix (table)		子	False
 487	走	走	zǒu	ve a caminar	go, walk		走	False
 488	最	最	zuì	mayoría	most		最	False
 489	走路	走路	zǒu lù	caminar	walk		走路	False
 490	最好	最好	zuìhǎo	mejor	Best		最好	False
 491	最后	最後	zuìhòu	último	Last		最后	False
-492	昨天	昨天	zuótiān	ayer	Yesterday		昨天	True
+492	昨天	昨天	zuótiān	ayer	Yesterday		昨天	False
 493	左边	左邊	zuǒbian	izquierda	left		左边	False
 494	左	左	zuǒ	izquierda	left		左	False
 495	坐	坐	zuò	sentarse	sit		坐	False
@@ -594,7 +594,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 593	大声	大聲	dà shēng	alto	loud		大声	False
 594	大衣	大衣	dà yī	sobretodo	overcoat		大衣	False
 595	大自然	大自然	dà zì rán	naturaleza	nature		大自然	False
-596	带	帶	dài	cinturón	belt		带	True
+596	带	帶	dài	cinturón	belt		带	False
 597	带来	帶來	dài lái	traer	bring		带来	False
 598	单位	單位	dānwèi	compañía	Company		单位	False
 599	大小	大小	dà xiǎo	tamaño	size		大小	False
@@ -608,7 +608,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 607	道路	道路	dào lù	camino; forma; camino	road; way; path		道路	False
 608	倒	倒	dǎo	otoño, caída, falla	fall, topple, fail		倒	False
 609	道理	道理	dàolǐ	verdad	truth		道理	False
-610	得	得	dé	(děi) necesidad; debe; tengo que; asegúrate de; (dé) conseguir	need; must; have to; be sure to; get		得	True
+610	得	得	dé	(děi) necesidad; debe; tengo que; asegúrate de; (dé) conseguir	need; must; have to; be sure to; get		得	False
 611	得出	得出	dé chū	obtener resultados; llegar a la conclusión	obtain results; reach conclusion		得出	False
 612	的话	的話	de huà	si	if		的话	False
 613	等（助、名）	等	děng	etc.; esperar	etc.; wait		等	False
@@ -639,7 +639,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 638	懂	懂	dǒng	entender	understand		懂	False
 639	对话	對話	duìhuà	diálogo	dialogue		对话	False
 640	对面	對面	duìmiàn	lado opuesto	Opposite side		对面	False
-641	多（副）	多	duō	mucho más; mucho más	much more; far more		多	True
+641	多（副）	多	duō	mucho más; mucho más	much more; far more		多	False
 642	多久	多久	duō jiǔ	cuánto tiempo	how long		多久	False
 643	对（介、动）	對	duì	bien; a; en; rostro; ser opuesto; respuesta	right; to; at; face; be opposite; answer		对	False
 644	多么	多麼	duōme	qué	what		多么	False
@@ -705,7 +705,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 704	海	海	hǎi	mar	sea		海	False
 705	过	過	guò	cruz; aprobar; gastar; vivir	cross; pass; spend; live		过	False
 706	海边	海邊	hǎi biān	playa	seaside		海边	False
-707	好（副）	好	hǎo	bueno; bien	well; fine; okay; good		好	True
+707	好（副）	好	hǎo	bueno; bien	well; fine; okay; good		好	False
 708	喊	喊	hǎn	gritar	shout		喊	False
 709	好多	好多	hǎo duō	muchos; mucho	many; a lot of		好多	False
 710	好处	好處	hǎochu	beneficio	benefit		好处	False
@@ -717,9 +717,9 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 716	黑	黑	hēi	negro	black		黑	False
 717	河	河	hé	río	river		河	False
 718	黑板	黑板	hēibǎn	pizarra	blackboard		黑板	False
-719	红	紅	hóng	rojo	red		红	True
+719	红	紅	hóng	rojo	red		红	False
 720	黑色	黑色	hēi sè	negro	black		黑色	False
-721	红色	紅色	hóng sè	rojo	red		红色	True
+721	红色	紅色	hóng sè	rojo	red		红色	False
 722	忽然	忽然	hūrán	de repente	suddenly		忽然	False
 723	后来	後來	hòulái	más tarde	later		后来	False
 724	护照	護照	hùzhào	pasaporte	passport		护照	False
@@ -736,7 +736,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 735	换	換	huàn	cambiar	change		换	False
 736	黄色	黃色	huáng sè	amarillo	yellow		黄色	False
 737	回（量）	逥	huí	regresa; devolver	go back; return		回	False
-738	回国	回國	huí guó	regreso a casa del extranjero	return home from abroad		回国	True
+738	回国	回國	huí guó	regreso a casa del extranjero	return home from abroad		回国	False
 739	会（名）	會	huì	reunión; reunión; conferencia; unión; fiesta; poder; ser capaz de	meeting; gathering; conference; union; party; can; be able to		会	False
 740	活动	活動	huódòng	actividad	activity		活动	False
 741	或	或	huò	o	or		或	False
@@ -755,7 +755,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 754	假	叚	jiǎ	falso	FALSE		假	False
 755	假期	假期	jià qī	día festivo; vacaciones	holiday; vacation		假期	False
 756	检查	檢查	jiǎnchá	inspeccionar; controlar	inspect; check		检查	False
-757	件	件	jiàn	pedazo	piece		件	True
+757	件	件	jiàn	pedazo	piece		件	False
 758	见过	見過	jiàn guò	visto; han visto	seen; have seen		见过	False
 759	讲	講	jiǎng	hablar	speak		讲	False
 760	见到	見到	jiàn dào	ver	see		见到	False
@@ -784,7 +784,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 783	节日	節日	jiérì	festival	festival		节日	False
 784	结果	結果	jiéguǒ	resultado	result		结果	False
 785	斤	斤	jīn	una unidad de peso (= 1/2 kilogramo)	a unit of weight (=1/2 kilogram)		斤	False
-786	接	接	jiē	conocer, elige	meet， pick		接	True
+786	接	接	jiē	conocer, elige	meet， pick		接	False
 787	借	藉	jiè	pedir prestado	borrow		借	False
 788	进入	進入	jìn rù	ingresar; entra; unirse	enter; go in; join		进入	False
 789	今后	今後	jīn hòu	de aquí en adelante; en el futuro	from now on; in the future		今后	False
@@ -848,7 +848,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 847	凉	涼	liáng	frío	cool		凉	False
 848	凉快	涼快	liángkuai	agradablemente genial	Pleasantly cool		凉快	False
 849	辆	輛	liàng	coche (medir palabra)	Car (measure word)		辆	False
-850	亮	亮	liàng	brillante	bright		亮	True
+850	亮	亮	liàng	brillante	bright		亮	False
 851	零下	零下	líng xià	bajo cero	below zero		零下	False
 852	两（量）	兩	liǎng	dos; una unidad de peso (= 50 gramos)	two; a unit of weight (=50 grams)		两	False
 853	留下	留下	liú xià	permanecer; permanecer	stay; remain		留下	False
@@ -876,7 +876,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 875	目的	目的	mùdì	objetivo	objective		目的	False
 876	拿到	拿到	ná dào	conseguir	get		拿到	False
 877	拿出	拿出	ná chū	sacar	take out		拿出	False
-878	那（连）	那	nà	entonces; en ese caso; eso	then; in that case; that		那	True
+878	那（连）	那	nà	entonces; en ese caso; eso	then; in that case; that		那	False
 879	那会儿	那會兒	nà huìr	en ese tiempo; entonces	at that time; then		那会儿	False
 880	那么	那麼	nà me	como eso; de ese modo	like that; in that way		那么	False
 881	那时候	那時候	nà shíhou	en ese tiempo	at that time		那时候	False
@@ -908,7 +908,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 907	便宜	便宜	piányi	barato	Cheap		便宜	False
 908	平安	平安	píng’ān	sano y salvo	sound and safe		平安	False
 909	平	平	píng	departamento	flat		平	False
-910	漂亮	漂亮	piàoliang	¡bien hecho !； hermoso	Well done!； beautiful		漂亮	True
+910	漂亮	漂亮	piàoliang	¡bien hecho !； hermoso	Well done!； beautiful		漂亮	False
 911	平时	平時	píngshí	tiempo de paz	peacetime		平时	False
 912	平常	平常	píngcháng	habitual	Usual		平常	False
 913	瓶子	瓶子	píngzi	botella	Bottle		瓶子	False
@@ -967,7 +967,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 966	少年	少年	shào nián	juvenil; persona joven	juvenile; young person		少年	False
 967	少数	少數	shǎo shù	número pequeño; pocos; minoría	small number; few; minority		少数	False
 968	什么样	甚麼樣	shén me yàng	que tipo	what kind		什么样	False
-969	生（动）	生	shēng	inmaduro; verde; viviendo; crudo; desconocido; dar a luz; nacer	unripe; green; living; raw; unfamiliar; give birth; be born		生	True
+969	生（动）	生	shēng	inmaduro; verde; viviendo; crudo; desconocido; dar a luz; nacer	unripe; green; living; raw; unfamiliar; give birth; be born		生	False
 970	生词	生詞	shēng cí	nueva palabra	new word		生词	False
 971	声音	聲音	shēngyīn	voz	voice		声音	False
 972	十分	十分	shífēn	muy	very		十分	False
@@ -1141,7 +1141,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 1140	一路顺风	一路順風	yí lù shùn fēng	buen viaje	Bon voyage		一路顺风	False
 1141	以前	以前	yǐqián	antes	before		以前	False
 1142	一共	一共	yígòng	en total	Altogether		一共	False
-1143	以后	以後	yǐ hòu	después; mas tarde; después; más tarde	after; later on; afterwards; later		以后	True
+1143	以后	以後	yǐ hòu	después; mas tarde; después; más tarde	after; later on; afterwards; later		以后	False
 1144	以上	以上	yǐ shàng	arriba; encima	above; over		以上	False
 1145	以外	以外	yǐ wài	más allá de; afuera; otro que; excepto	beyond; outside; other than; except		以外	False
 1146	椅子	椅子	yǐzi	silla	Chair		椅子	False
@@ -1157,7 +1157,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 1156	意思	意思	yìsi	significado	Meaning		意思	False
 1157	阴天	陰天	yīn tiān	día nublado; cielo nublado	cloudy day; overcast sky		阴天	False
 1158	音节	音節	yīn jié	sílaba	syllable		音节	False
-1159	音乐	音樂	yīnyuè	música	Music		音乐	True
+1159	音乐	音樂	yīnyuè	música	Music		音乐	False
 1160	音乐会	音樂會	yīn yuè huì	concierto	concert		音乐会	False
 1161	银行卡	銀行卡	yín háng kǎ	tarjeta bancaria	bank card		银行卡	False
 1162	应该	應該	yīnggāi	debería	Should		应该	False
@@ -1202,7 +1202,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 1201	占	占	zhàn	ocupar	occupy		占	False
 1202	站住	站住	zhàn zhù	detener; detener	stop; halt		站住	False
 1203	长大	長大	zhǎng dà	crecer	grow up		长大	False
-1204	站（动）	站	zhàn	pararse; detener; estación	stand; stop; halt; station		站	True
+1204	站（动）	站	zhàn	pararse; detener; estación	stand; stop; halt; station		站	False
 1205	找出	找出	zhǎo chū	descubrir	find out		找出	False
 1206	照片	照片	zhàopiàn	foto	Photo		照片	False
 1207	照相	照相	zhào xiàng	toma una foto; tomar una fotografía	take a picture; take a photograph		照相	False
@@ -1268,7 +1268,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 1267	把（介）	把	bǎ	(marca de partículas el siguiente sustantivo como objeto directo)	(particle marking the following noun as a direct object)		把	False
 1268	白菜	白菜	bái cài	col china	Chinese cabbage		白菜	False
 1269	搬	搬	bān	doblar; mover	turn; move		搬	False
-1270	白（副）	白	bái	sin resultados; en vano; esfuerzos de desechos; blanco	without results; in vain; waste efforts; white		白	True
+1270	白（副）	白	bái	sin resultados; en vano; esfuerzos de desechos; blanco	without results; in vain; waste efforts; white		白	False
 1271	班级	班級	bān jí	clase	class		班级	False
 1272	搬家	搬家	bān jiā	mover; mudarse	move; move house		搬家	False
 1273	办理	辦理	bànlǐ	manejar	handle		办理	False
@@ -1322,7 +1322,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 1321	不光	不光	bù guāng	no solo	not only		不光	False
 1322	不仅	不僅	bùjǐn	no solo	not only		不仅	False
 1323	布	布	bù	paño	cloth		布	False
-1324	步	步	bù	paso; escenario; caminar; pie	step; stage; walk; foot		步	True
+1324	步	步	bù	paso; escenario; caminar; pie	step; stage; walk; foot		步	False
 1325	部门	部門	bùmén	departamento	department		部门	False
 1326	部	部	bù	unidad; ministerio; departamento; parte; sección	unit; ministry; department;  part; section		部	False
 1327	部长	部長	bù zhǎng	ministro; jefe de un departamento	minister; head of a department		部长	False
@@ -1665,7 +1665,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 1664	开始	開始	kāishǐ	comenzar	start		开始	False
 1665	开展	開展	kāizhǎn	desarrollar	Develop		开展	False
 1666	开业	開業	kāi yè	iniciar negocios; abrir una práctica privada	start business; open a private practice		开业	False
-1667	看起来	看起來	kàn qǐ lái	parece	look like		看起来	True
+1667	看起来	看起來	kàn qǐ lái	parece	look like		看起来	False
 1668	看上去	看上去	kàn shàng qù	parecer	seem		看上去	False
 1669	考验	考驗	kǎoyàn	prueba	test		考验	False
 1670	可靠	可靠	kěkào	confiable	reliable		可靠	False
@@ -1687,7 +1687,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 1686	老板	老闆	lǎobǎn	jefe	Boss		老板	False
 1687	老太太	老太太	lǎo tài tai	señora mayor	old lady		老太太	False
 1688	老头儿	老頭兒	lǎo tóur	anciano	old man		老头儿	False
-1689	乐	樂	lè	feliz; reír; alegre	happy; laugh; cheerful		乐	True
+1689	乐	樂	lè	feliz; reír; alegre	happy; laugh; cheerful		乐	False
 1690	乐观	樂觀	lèguān	optimista	optimistic		乐观	False
 1691	类似	類似	lèisì	similar	Similar		类似	False
 1692	离婚	離婚	líhūn	divorcio	divorce		离婚	False
@@ -1709,7 +1709,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 1708	联系	聯繫	liánxì	contacto	contact		联系	False
 1709	联合	聯合	liánhé	unión	union		联合	False
 1710	凉水	涼水	liáng shuǐ	agua fría; agua sin hervir	cold water; unboiled water		凉水	False
-1711	了	瞭	le	marcador en tiempo pasado	past tense marker		了	True
+1711	了	瞭	le	marcador en tiempo pasado	past tense marker		了	False
 1712	领	領	lǐng	dirigir; recibir; conseguir; entender	lead; receive; get; understand		领	False
 1713	领导	領導	lǐngdǎo	líder	Leader		领导	False
 1714	领先	領先	lǐngxiān	sigue adelante	keep ahead		领先	False
@@ -1732,7 +1732,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 1731	毛（名）	毛	máo	una unidad fraccional de dinero en china; cabello; pelo	a fractional unit of money in China; hair; fur		毛	False
 1732	没用	沒用	méi yòng	inútil	useless		没用	False
 1733	毛病	毛病	máobìng	problema	Trouble		毛病	False
-1734	每	每	měi	cada	each		每	True
+1734	每	每	měi	cada	each		每	False
 1735	媒体	媒體	méitǐ	medios de comunicación	media		媒体	False
 1736	美	美	měi	hermoso; bonito	beautiful; pretty		美	False
 1737	美丽	美麗	měilì	hermoso	beautiful		美丽	False
@@ -1783,7 +1783,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 1782	派	派	pài	enviar	send		派	False
 1783	判断	判斷	pànduàn	juez	judge		判断	False
 1784	配合	配合	pèihé	coordinación	Coordination		配合	False
-1785	跑步	跑步	pǎobù	correr	Run		跑步	True
+1785	跑步	跑步	pǎobù	correr	Run		跑步	False
 1786	胖	胖	pàng	gordo	fat		胖	False
 1787	配	配	pèi	fósforo; mezcla; unirse; adaptar	match; mix; join; fit		配	False
 1788	批评	批評	pīpíng	crítica	criticism		批评	False
@@ -1838,7 +1838,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 1837	确定	確定	quèdìng	determinar	Determine		确定	False
 1838	群	群	qún	grupo	group		群	False
 1839	确实	確實	quèshí	exactamente	Exactly		确实	False
-1840	裙子	裙子	qúnzi	falda	skirt		裙子	True
+1840	裙子	裙子	qúnzi	falda	skirt		裙子	False
 1841	热烈	熱烈	rèliè	cálido	warm		热烈	False
 1842	热爱	熱愛	rè’ài	amor ardientemente	Ardently love		热爱	False
 1843	人才	人才	réncái	persona talentosa	talented person		人才	False
@@ -1887,13 +1887,13 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 1886	生命	生命	shēngmìng	vida	life		生命	False
 1887	生意	生意	shēngyi	negocio	business		生意	False
 1888	生长	生長	shēngzhǎng	crecer	grow		生长	False
-1889	生（形）	生	shēng	inmaduro; verde; viviendo; crudo; desconocido; dar a luz; nacer	unripe; green; living; raw; unfamiliar; give birth; be born		生	True
+1889	生（形）	生	shēng	inmaduro; verde; viviendo; crudo; desconocido; dar a luz; nacer	unripe; green; living; raw; unfamiliar; give birth; be born		生	False
 1890	声明	聲明	shēngmíng	declaración	statement		声明	False
 1891	胜	勝	shèng	ganar; fracaso; derrotar; puede soportar; ser superior	win; defeat; beat; can bear; be superior		胜	False
 1892	胜利	勝利	shènglì	victoria	victory		胜利	False
 1893	石头	石頭	shítou	piedra	stone		石头	False
 1894	石油	石油	shíyóu	petróleo	petroleum		石油	False
-1895	时	時	shí	tiempo; veces; hora; estación; tenso	time; times; hour; season; tense		时	True
+1895	时	時	shí	tiempo; veces; hora; estación; tenso	time; times; hour; season; tense		时	False
 1896	失去	失去	shīqù	perder	Lose		失去	False
 1897	时代	時代	shídài	veces	times		时代	False
 1898	实际上	實際上	shí jì shàng	de hecho	actually		实际上	False
@@ -2348,7 +2348,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 2347	词汇	詞彙	cíhuì	vocabulario	vocabulary		词汇	False
 2348	此	此	cǐ	este; estos; ahora; aquí	this; these; now; here		此	False
 2349	此外	此外	cǐwài	además	in addition		此外	False
-2350	次（形）	次	cì	(mida la palabra para tiempos, frecuencia) segunda categoría; secundario	(measure word for times, frequency) second-rate; secondary		次	True
+2350	次（形）	次	cì	(mida la palabra para tiempos, frecuencia) segunda categoría; secundario	(measure word for times, frequency) second-rate; secondary		次	False
 2351	刺激	刺激	cìjī	estimular	stimulate		刺激	False
 2352	刺	刺	cì	espina	thorn		刺	False
 2353	从此	從此	cóngcǐ	a partir de entonces	from then on		从此	False
@@ -2357,9 +2357,9 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 2356	促销	促銷	cù xiāo	promoción	promotion		促销	False
 2357	措施	措施	cuòshī	medidas	Measures		措施	False
 2358	促使	促使	cùshǐ	urgir	Urge		促使	False
-2359	打	打	dǎ	huelga; golpear; romper; luchar; construir; derrotar; tomar; de; desde	strike; hit; break; fight; build; beat; take; from; since		打	True
+2359	打	打	dǎ	huelga; golpear; romper; luchar; construir; derrotar; tomar; de; desde	strike; hit; break; fight; build; beat; take; from; since		打	False
 2360	促进	促進	cùjìn	promover	Promote		促进	False
-2361	答案	答案	dá’àn	respuesta	Answer		答案	True
+2361	答案	答案	dá’àn	respuesta	Answer		答案	False
 2362	打雷	打雷	dǎ léi	trueno	thunder		打雷	False
 2363	打败	打敗	dǎ bài	fracaso; derrotar; ser derrotado	defeat; beat; be defeated		打败	False
 2364	打扫	打掃	dǎsǎo	limpio	Clean		打扫	False
@@ -2394,7 +2394,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 2393	淡	淡	dàn	luz	light		淡	False
 2394	倒车	倒車	dǎo chē	cambiar trenes o autobuses	change trains or buses		倒车	False
 2395	得意	得意	déyì	orgulloso	Proud		得意	False
-2396	得	得	děi	(děi) necesidad; debe; tengo que; asegúrate de; (dé) conseguir	need; must; have to; be sure to; get		得	True
+2396	得	得	děi	(děi) necesidad; debe; tengo que; asegúrate de; (dé) conseguir	need; must; have to; be sure to; get		得	False
 2397	导致	導致	dǎozhì	causa	cause		导致	False
 2398	灯光	燈光	dēng guāng	luz; iluminación de escenario	light; stage lighting		灯光	False
 2399	登	登	dēng	ascender; montar; escala; pisar; pedal; publicar	ascend; mount; scale; step on; pedal; publish		登	False
@@ -2458,7 +2458,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 2457	方案	方案	fāng’àn	programa	programme		方案	False
 2458	方	方	fāng	cuadrado	square		方	False
 2459	方针	方針	fāngzhēn	política	policy		方针	False
-2460	非	非	fēi	no; equivocado	no; wrong		非	True
+2460	非	非	fēi	no; equivocado	no; wrong		非	False
 2461	放松	放鬆	fàngsōng	relajarse	Relax		放松	False
 2462	肥	肥	féi	gordo; fértil	fat; fertile		肥	False
 2463	分布	分佈	fēnbù	distribución	distribution		分布	False
@@ -2539,7 +2539,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 2538	行业	行業	hángyè	industria	industry		行业	False
 2539	好友	好友	hǎo yǒu	amigo	friend		好友	False
 2540	毫升	毫升	háo shēng	mililitro	milliliter		毫升	False
-2541	好	好	hǎo	bueno; bien	well; fine; okay; good		好	True
+2541	好	好	hǎo	bueno; bien	well; fine; okay; good		好	False
 2542	号码	號碼	hàomǎ	número	number		号码	False
 2543	黑暗	黑暗	hēi àn	oscuro; oscuridad; oscuridad	dark; darkness; murk		黑暗	False
 2544	合同	合同	hétong	contrato	contract		合同	False
@@ -2829,7 +2829,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 2828	弱	弱	ruò	débil	weak		弱	False
 2829	散	散	sàn	disolver; dispersar; distribuir; diseminar; repartir; desmoronarse;	break up; disperse; distribute; disseminate; give out; fall apart; scattered		散	False
 2830	扫	掃	sǎo	barrer; escoba	sweep; broom		扫	False
-2831	色	色	sè	color; mirar; expresión; escena; calidad	colour; look; expression; scene; quality		色	True
+2831	色	色	sè	color; mirar; expresión; escena; calidad	colour; look; expression; scene; quality		色	False
 2832	伞	繖	sǎn	paraguas	umbrella		伞	False
 2833	色彩	色彩	sècǎi	color	color		色彩	False
 2834	闪	閃	shǎn	esquivar; apartese del camino; esguince; destello; brillar; brillar; iluminación	dodge; get out of the way; sprain; flash; sparkle; shine; lightning		闪	False
@@ -3078,7 +3078,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 3077	养成	養成	yǎngchéng	cultivar	Cultivate		养成	False
 3078	药物	藥物	yào wù	droga; medicamento	drug; medicine		药物	False
 3079	摇	搖	yáo	agitar	shake		摇	False
-3080	要（连）	要	yào	si; desear	if; want		要	True
+3080	要（连）	要	yào	si; desear	if; want		要	False
 3081	业余	業餘	yèyú	aficionado	amateur		业余	False
 3082	医疗	醫療	yī liáo	tratamiento médico	medical treatment		医疗	False
 3083	医学	醫學	yī xué	ciencia médica; medicamento	medical science; medicine		医学	False
@@ -3369,8 +3369,8 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 3368	存款	存款	cún kuǎn	depósito; ahorro bancario	deposit; bank savings		存款	False
 3369	达成	達成	dáchéng	alcanzar	Reach		达成	False
 3370	答复	答覆	dáfù	responder	Reply		答复	False
-3371	答	答	dá	respuesta; responder; responder; devolver	answer; reply; respond; return		答	True
-3372	打（介）	打	dǎ	huelga; golpear; romper; luchar; construir; derrotar; tomar; de; desde	strike; hit; break; fight; build; beat; take; from; since		打	True
+3371	答	答	dá	respuesta; responder; responder; devolver	answer; reply; respond; return		答	False
+3372	打（介）	打	dǎ	huelga; golpear; romper; luchar; construir; derrotar; tomar; de; desde	strike; hit; break; fight; build; beat; take; from; since		打	False
 3373	打扮	打扮	dǎban	vestirse	dress up		打扮	False
 3374	打击	打擊	dǎjī	huelga	strike		打击	False
 3375	打包	打包	dǎbāo	embalar	Pack		打包	False
@@ -3841,7 +3841,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 3840	人力	人力	rén lì	mano de obra; labor manual	manpower; manual labour		人力	False
 3841	忍不住	忍不住	rěnbuzhù	incapaz de soportar	Unable to bear		忍不住	False
 3842	绕	遶	rào	alrededor	Around		绕	False
-3843	认	認	rèn	reconocer; saber; dar a entender; identificar; adoptar; admitir	recognize; know; make out; identify; adopt; admit		认	True
+3843	认	認	rèn	reconocer; saber; dar a entender; identificar; adoptar; admitir	recognize; know; make out; identify; adopt; admit		认	False
 3844	认定	認定	rèndìng	conocimiento	cognizance		认定	False
 3845	忍受	忍受	rěnshòu	oso	bear		忍受	False
 3846	扔	扔	rēng	tirar	throw		扔	False
@@ -4783,7 +4783,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 4782	开夜车	開夜車	kāi yè chē	conducir por la noche; trabajar de noche; trabaja hasta tarde en la noche	drive at night; work at night; work late into the night		开夜车	False
 4783	看得见	看得見	kàn de jiàn	visible; perceptible	visible; noticeable		看得见	False
 4784	开头	開頭	kāi tóu	comenzar; comenzar; comienzo	begin; start; beginning		开头	False
-4785	看	看	kān	(kān) cuidar de; mantener bajo vigilancia (kàn) ver	(kān) take care of; keep under surveillance (kàn) see		看	True
+4785	看	看	kān	(kān) cuidar de; mantener bajo vigilancia (kàn) ver	(kān) take care of; keep under surveillance (kàn) see		看	False
 4786	看管	看管	kān guǎn	cuidar; guardia; mirar; asistir	look after; guard; watch; attend		看管	False
 4787	看得起	看得起	kàn de qǐ	pensar muy bien de; tener una buena opinión sobre	think highly of; have a good opinion of		看得起	False
 4788	看作	看作	kàn zuò	ver; considerar como; considerar	see; regard as; look upon		看作	False
@@ -5020,7 +5020,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 5019	时期	時期	shíqī	período	period		时期	False
 5020	时装	時裝	shí zhuāng	moda; vestido de moda	fashion; fashionable dress		时装	False
 5021	时而	時而	shí’ér	de vez en cuando; ahora ahora …	from time to time; now … now …		时而	False
-5022	识	識	shí	conocimiento; saber; recordar	knowledge; know; remember		识	True
+5022	识	識	shí	conocimiento; saber; recordar	knowledge; know; remember		识	False
 5023	实践	實踐	shíjiàn	práctica	practice		实践	False
 5024	食欲	食慾	shí yù	apetito	appetite		食欲	False
 5025	市民	市民	shì mín	ciudadano; residente de la ciudad	citizen; city resident		市民	False
@@ -6510,7 +6510,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 6509	飞往	飛往	fēiwǎng	volar a	fly to		飞往	False
 6510	飞翔	飛翔	fēixiáng	volar	fly		飞翔	False
 6511	飞跃	飛躍	fēiyuè	salto	leap		飞跃	False
-6512	非	非	fēi	no; equivocado	no; wrong		非	True
+6512	非	非	fēi	no; equivocado	no; wrong		非	False
 6513	非得	非得	fēiděi	ser	be		非得	False
 6514	非法	非法	fēifǎ	ilegal	illegal		非法	False
 6515	肥料	肥料	féiliào	fertilizante	fertilizer		肥料	False
@@ -8526,7 +8526,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 8525	偏远	偏遠	piānyuǎn	remoto	remote		偏远	False
 8526	骗人	騙人	piànrén	engañoso	deceptive		骗人	False
 8527	片段	片段	piànduàn	acortar	clip		片段	False
-8528	漂	漂	piāo	deriva	drift		漂	True
+8528	漂	漂	piāo	deriva	drift		漂	False
 8529	飘	飄	piāo	con el viento	with the wind		飘	False
 8530	票房	票房	piàofáng	taquillas	box office		票房	False
 8531	撇	撇	piě	holgazán	skimming		撇	False
@@ -10311,7 +10311,7 @@ id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
 10310	遗址	遺址	yízhǐ	sitio	site		遗址	False
 10311	疑惑	疑惑	yíhuò	confundir	confuse		疑惑	False
 10312	疑虑	疑慮	yílǜ	duda	doubt		疑虑	False
-10313	以	以	yǐ	por	by		以	True
+10313	以	以	yǐ	por	by		以	False
 10314	以身作则	以身作則	yǐshēnzuòzé	predicar con el ejemplo	lead by example		以身作则	False
 10315	以免	以免	yǐmiǎn	para no	so as not to		以免	False
 10316	以至于	以至於	yǐzhìyú	para	so as to		以至于	False

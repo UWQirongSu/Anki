@@ -23,13 +23,27 @@ class AnkiDictionary:
         self.words = []  # List to store AnkiWord objects
 
     def clearTags(self):
+        if not isinstance(self.words, list):
+            print("self.words must be a list")
+            return
         for word in self.words:
-            word.tag = False
+            if hasattr(word, 'tag'):
+                word.tag = False
 
     def tagFromFile(self, file_name, requiredCount: int):
-        # Count character occurrences
-        with open(file_name, encoding="utf-8") as f:
-            text = f.read()
+        if not isinstance(file_name, str):
+            print("file_name must be a string")
+            return
+        if not isinstance(requiredCount, int) or requiredCount < 0:
+            print("requiredCount must be a non-negative integer")
+            return
+
+        try:
+            with open(file_name, encoding="utf-8") as f:
+                text = f.read()
+        except Exception as e:
+            print(f"Error reading file {file_name}: {e}")
+            return
 
         for word in self.words:
             # Count how many times either form appears
@@ -44,44 +58,48 @@ class AnkiDictionary:
             total_count = simplified_count + traditional_count
             if(total_count >= requiredCount):
                 word.tag = True
-                print(f"FOUND: {word.simplified}/{word.traditional} appeared {total_count} times")
+                # print(f"FOUND: {word.simplified}/{word.traditional} appeared {total_count} times")
 
     def tagsAndNot(self, history):
-        if not history:
+        if not isinstance(history, type(self)):
+            print("history must be an instance of the same class")
             return
 
-        # Build a set of known words from history (both simplified and traditional)
         known_words = set()
         for word in history.words:
             known_words.add(word.simplified)
             if word.traditional:
                 known_words.add(word.traditional)
 
-        # Untag any word in self.words that appears in known_words
         for word in self.words:
             if word.tag and (word.simplified in known_words or word.traditional in known_words):
-                print(f"REMOVING: {word.simplified}/{word.traditional} is in history")
                 word.tag = False
 
     def tagsOr(self, history):
-        # Example function where we add new words to history
+        if not isinstance(history, type(self)):
+            print("history must be an instance of the same class")
+            return
+
         new_words = [word for word in self.words if word.tag and word not in history.words]
-        history.appendWords(new_words)  # Appending new words to history dictionary
+        history.appendWords(new_words)
 
     def getTagged(self):
-        """Returns a list of words with tag=True."""
-        return [word for word in self.words if word.tag]
+        if not isinstance(self.words, list):
+            print("self.words must be a list")
+            return []
+        return [word for word in self.words if getattr(word, "tag", False)]
 
     def appendWords(self, new_words):
-        """Appends a list of AnkiWord objects to the dictionary."""
-        if isinstance(new_words, list):
-            for word in new_words:
-                if isinstance(word, AnkiWord):  # Make sure the word is of type AnkiWord
-                    self.words.append(word)
-                else:
-                    print("Only AnkiWord instances can be added")
-        else:
+        if not isinstance(new_words, list):
             print("Input should be a list of AnkiWord instances")
+            return
+
+        for word in new_words:
+            if isinstance(word, AnkiWord):
+                self.words.append(word)
+            else:
+                print("Only AnkiWord instances can be added")
+
 
     def addWord(self, word):
         if isinstance(word, AnkiWord):
@@ -90,19 +108,26 @@ class AnkiDictionary:
             print("Only AnkiWord instances can be added")
 
     def wordFromId(self, word_id):
+        if not isinstance(word_id, str):
+            print("word_id must be a string")
+            return None
         for word in self.words:
             if word.id == word_id:
                 return word
         return None
 
     def loadFromFile(self, file_name):
+        if not isinstance(file_name, str):
+            print("file_name must be a string")
+            return
+
         try:
             with open(file_name, "r", encoding="utf-8") as file:
                 for line_num, line in enumerate(file, start=1):
                     # print(f"Line {line_num}: {line.strip()}")
                     parts = line.strip().split("\t")
                     if len(parts) != 9:
-                        print(f"Skipping line {line_num} due to incorrect number of fields ({len(parts)}).")
+                        # print(f"Skipping line {line_num} due to incorrect number of fields ({len(parts)}).")
                         continue
 
                     # Convert string "True"/"False" to boolean
@@ -125,7 +150,9 @@ class AnkiDictionary:
 
 
     def saveAllToFile(self, file_name):
-        # Save the word list to a TSV file
+        if not isinstance(file_name, str):
+            print("file_name must be a string")
+            return
         try:
             with open(file_name, "w", encoding="utf-8") as file:
                 for word in self.words:
@@ -134,12 +161,17 @@ class AnkiDictionary:
         except Exception as e:
             print(f"Error saving to file {file_name}: {e}")
 
+
     def saveTrueToFile(self, file_name):
         # Save only tagged words to a TSV file
+        if not isinstance(file_name, str):
+            print("file_name must be a string")
+            return
         try:
             with open(file_name, "w", encoding="utf-8") as file:
                 for word in self.words:
-                    if not word.tag: continue  # Only save tagged words
+                    if not getattr(word, 'tag', False):
+                        continue
                     file.write(f"{word.id}\t{word.simplified}\t{word.traditional}\t{word.pronunciation}\t{word.meaning}"
                             f"\t{word.translation}\t{word.extra1}\t{word.extra2}\t{word.tag}\n")
         except Exception as e:
@@ -164,24 +196,45 @@ Purpose:
 This is the entry point of the program. It first clears any tags in the tagsFile using AnkiWord.clearTags(), then searches for words in the textFile using AnkiWord.tagFromFile(). 
 After this, the tags in the TSV file are updated accordingly.
 '''
-def anki_parse(textFiles, dictionaryFile, requiredCount, historyFile, disableHistoryFlag):
-    # add input validation
-    print(f"textFiles: {textFiles}, dictionaryFile: {dictionaryFile}, requiredCount: {requiredCount}, disableHistoryFlag: {disableHistoryFlag}")
+def anki_parse(textFiles, dictionaryFile, requiredCount, historyFile, disableHistoryFlag, debug=False):
+    # Input validation
+    if not textFiles:
+        raise ValueError("At least one text file must be provided.")
+
+    for path in textFiles:
+        if not os.path.isfile(path):
+            raise FileNotFoundError(f"Text file not found: {path}")
+
+    if not os.path.isfile(dictionaryFile):
+        raise FileNotFoundError(f"Dictionary file not found: {dictionaryFile}")
+
+    if requiredCount < 0:
+        raise ValueError("requiredCount must be non-negative.")
+
+    if historyFile and not disableHistoryFlag and os.path.exists(historyFile):
+        if not os.access(historyFile, os.R_OK | os.W_OK):
+            raise PermissionError(f"Cannot read/write history file: {historyFile}")
+
+    if(debug):  print(f"textFiles: {textFiles}, dictionaryFile: {dictionaryFile}, requiredCount: {requiredCount}, disableHistoryFlag: {disableHistoryFlag}")
+    
     dictionary = AnkiDictionary()
     dictionary.loadFromFile(dictionaryFile)
     dictionary.clearTags()
     for textFile in textFiles:
         dictionary.tagFromFile(textFile, requiredCount)
-    print(dictionary)
+
+    if(debug):  print(dictionary)
+    
 
     if historyFile and not disableHistoryFlag:
         history = AnkiDictionary()
         if os.path.exists(historyFile): # Check if history file exists, if not initialize an empty history
             history.loadFromFile(historyFile)
             dictionary.tagsAndNot(history)
-            print(history)
+            if(debug):  print(history)
+            
         else:
-            print(f"History file {historyFile} does not exist. Starting with an empty history.")
+            if(debug):  print(f"History file {historyFile} does not exist. Starting with an empty history.")
 
         history.appendWords(dictionary.getTagged())  # Add new learned words to history
         history.saveTrueToFile(historyFile)  # Save the updated history
@@ -199,7 +252,8 @@ if __name__ == "__main__":
     parser.add_argument("-history", type=str, default="anki_history.tsv", help="Optional path to a TSV file that stores previously learned words")
     parser.add_argument("--disable-history", action="store_true", help="Disable storing history")
     parser.add_argument("--required-count", type=int, default=1, help="Minimum number of occurrences required to tag a word. (default: 1)")
+    parser.add_argument("--debug", action="store_true", help="Enable debug output")
     args = parser.parse_args()
 
     # Running the parse function with the arguments provided
-    anki_parse(args.text_file, args.tsv_file, args.required_count, args.history, args.disable_history)
+    anki_parse(args.text_file, args.tsv_file, args.required_count, args.history, args.disable_history, args.debug)

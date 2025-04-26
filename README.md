@@ -30,6 +30,7 @@ This program tags words in an Anki deck based on their presence in a book's text
 - **Lemmatization**: While the program currently works for Chinese, it has not been fully implemented for languages like Spanish or other Germanic languages. The ability to handle lemmas (base forms of words) is still under development.
 - **OCR for Comics**: There are plans to expand the program to extract text from comics using OCR, allowing language learners to learn vocabulary from visual media such as comics or movies.
 - **Single Executable**: It would be ideal for this program to be able to be compiled into a single executable for ALL platforms (currently single executable available only for windows)
+- **GUI Executable Option**: To make this more accessible, a GUI interface would be easier to use
 
 ## How to Use
 
@@ -40,7 +41,7 @@ python anki.py <text_file> <_tsv_file>
 ```
 
 Parameters:
-<text_file>: Path to the text file (corpus) that contains the content to search for words.
+<text_file>: Path to the text files (corpus) that contains the content to search for words.
 <tsv_file>: Path to the TSV file containing the word list. This file is both an input and output (it holds the words and their tags).
 
 ### Flags
