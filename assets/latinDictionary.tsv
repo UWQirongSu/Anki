@@ -1,101 +1,101 @@
-id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False
-1	amare		ah-mah-ray	To love	Amare			False
-2	pax		paaks	Peace	Pax			False
-3	vinum		wee-num	Wine	Vinum			True
-4	terra		ter-rah	Earth	Terra			True
-5	lectus		lek-tus	Bed	Lectus			False
-6	aurum		ow-room	Gold	Aurum			False
-7	canis		ka-nees	Dog	Canis			False
-8	felix		fay-liks	Happy	Felix			False
-9	amicus		a-mee-koos	Friend	Amicus			False
-10	mater		mah-ter	Mother	Mater			True
-11	pater		pah-ter	Father	Pater			False
-12	serpens		ser-pens	Snake	Serpens			False
-13	imperium		im-per-ee-um	Empire	Imperium			False
-14	novus		noh-woos	New	Novus			False
-15	ventus		ven-toos	Wind	Ventus			False
-16	sol		sol	Sun	Sol			False
-17	lumen		loo-men	Light	Lumen			False
-18	arborem		ar-boh-rem	Tree	Arbor			False
-19	fortis		for-tees	Strong	Fortis			True
-20	fragor		frag-or	Crash	Fragor			False
-21	vita		vee-tah	Life	Vita			True
-22	servus		ser-woos	Slave	Servus			False
-23	civitas		kee-wee-tahs	City	Civitas			False
-24	nox		noks	Night	Nox			False
-25	aurora		ow-roh-rah	Dawn	Aurora			False
-26	amicitia		ah-mee-kee-tee-ah	Friendship	Amicitia			False
-27	humilis		hoo-mee-lees	Humble	Humilis			False
-28	veritas		veh-ree-tahs	Truth	Veritas			False
-29	imperator		im-peh-rah-tor	Emperor	Imperator			False
-30	ventus		ven-toos	Wind	Ventus			False
-31	furor		foo-ror	Rage	Furor			False
-32	fortuna		for-too-nah	Fortune	Fortuna			False
-33	corpus		kor-poos	Body	Corpus			False
-34	navis		nah-wees	Ship	Navis			False
-35	sapientia		sap-ee-en-tee-ah	Wisdom	Sapientia			True
-36	fama		fah-mah	Fame	Fama			False
-37	fatum		fah-toom	Destiny	Fatum			False
-38	aqua		ah-kwah	Water	Aqua			False
-39	pulchra		pool-krah	Beautiful	Pulchra			True
-40	nihil		nee-hil	Nothing	Nihil			False
-41	verus		veh-roos	TRUE	Verus			False
-42	clarus		klah-roos	Clear	Clarus			False
-43	igitur		ee-gee-toor	Therefore	Igitur			False
-44	ager		ah-ger	Field	Ager			False
-45	celestia		cheh-les-tee-ah	Heavenly	Celestia			False
-46	praemium		preh-mee-um	Reward	Praemium			False
-47	servare		ser-wah-ray	To save	Servare			True
-48	venia		veh-nee-ah	Pardon	Venia			False
-49	donum		doh-noom	Gift	Donum			False
-50	cadere		kah-deh-ray	To fall	Cadere			False
-51	hic		heek	This	Hic			False
-52	ille		eel-leh	That	Illle			False
-53	fabula		fah-boo-lah	Story	Fabula			False
-54	lectus		lek-tus	Bed	Lectus			False
-55	verba		wehr-bah	Words	Verba			False
-56	signum		seeg-noom	Sign	Signum			False
-57	fabri		fah-bree	Workmen	Fabri			False
-58	abire		ah-bee-ray	To go away	Abire			False
-59	mare		mah-ray	Sea	Mare			True
-60	creare		kreh-ah-ray	To create	Creare			False
-61	amicus		ah-mee-koos	Friend	Amicus			False
-62	incendium		een-kend-ee-um	Fire	Incendium			False
-63	opus		oh-poos	Work	Opus			False
-64	condere		kohn-deh-ray	To build	Condere			False
-65	amor		ah-mor	Love	Amor			False
-66	tenebrae		teh-neh-brah-Darkness	Tenebrae				False
-67	vetus		veh-toos	Old	Vetus			False
-68	condicio		kohn-dee-shee-oh	Condition	Condicio			False
-69	aeternum		ay-tern-oom	Eternal	Aeternum			False
-70	praesentia		preh-sen-tee-ah	Present	Praesentia			False
-71	discipulus		dis-sip-you-loos	Student	Discipulus			False
-72	virtus		veer-toos	Virtue	Virtus			False
-73	candidus		kan-dee-doos	White	Candidus			False
-74	beneficium		beh-neh-fee-kee-um	Benefit	Beneficium			False
-75	disciplina		dis-sip-lee-nah	Discipline	Disciplina			False
-76	temporis		tem-po-ris	Time	Temporis			False
-77	latere		lah-teh-ray	To hide	Latere			False
-78	fortis		for-tees	Strong	Fortis			True
-79	misericordia		mee-seh-ree-kor-dee-ah	Compassion	Misericordia			False
-80	probitas		proh-bee-tahs	Honesty	Probitas			False
-81	audire		ow-dee-ray	To hear	Audire			False
-82	voluntas		woh-loon-tahs	Will	Voluntas			False
-83	convenire		kohn-weh-nee-ray	To meet	Convenire			False
-84	cognoscere		kog-naw-sheh-ray	To know	Cognoscere			False
-85	nostrum		nohs-troom	Our	Nostrum			False
-86	gratia		grah-tee-ah	Grace	Gratia			False
-87	discordia		dis-kor-dee-ah	Discord	Discordia			False
-88	lucrum		loo-kroom	Gain	Lucrum			False
-89	magister		mah-jees-ter	Teacher	Magister			False
-90	melior		meh-lee-or	Better	Melior			False
-91	aequus		ay-kwus	Fair	Aequus			False
-92	legatus		leh-gah-toos	Envoy	Legatus			False
-93	beneficium		beh-neh-fee-kee-um	Benefit	Beneficium			False
-94	gravitas		grah-vee-tahs	Weight	Gravitas			False
-95	ancilla		ahn-chee-lah	Servant	Ancilla			False
-96	pecunia		peh-koo-nee-ah	Money	Pecunia			False
-97	aegrum		ay-grum	Sick	Aegrum			False
-98	bene		beh-neh	Well	Bene			False
-99	ventus		ven-toos	Wind	Ventus			False
-100	armarium		ahr-mah-ree-um	Wardrobe	Armarium			False
+id	Word1	Word2	Pronunciation	Meaning	Translation	Extra1	Extra2	False	confidence
+1	amare		ah-mah-ray	To love	Amare			False	0
+2	pax		paaks	Peace	Pax			False	0
+3	vinum		wee-num	Wine	Vinum			True	0
+4	terra		ter-rah	Earth	Terra			True	0
+5	lectus		lek-tus	Bed	Lectus			False	0
+6	aurum		ow-room	Gold	Aurum			False	0
+7	canis		ka-nees	Dog	Canis			False	0
+8	felix		fay-liks	Happy	Felix			False	0
+9	amicus		a-mee-koos	Friend	Amicus			False	0
+10	mater		mah-ter	Mother	Mater			True	0
+11	pater		pah-ter	Father	Pater			False	0
+12	serpens		ser-pens	Snake	Serpens			False	0
+13	imperium		im-per-ee-um	Empire	Imperium			False	0
+14	novus		noh-woos	New	Novus			False	0
+15	ventus		ven-toos	Wind	Ventus			False	0
+16	sol		sol	Sun	Sol			False	0
+17	lumen		loo-men	Light	Lumen			False	0
+18	arborem		ar-boh-rem	Tree	Arbor			False	0
+19	fortis		for-tees	Strong	Fortis			True	0
+20	fragor		frag-or	Crash	Fragor			False	0
+21	vita		vee-tah	Life	Vita			True	0
+22	servus		ser-woos	Slave	Servus			False	0
+23	civitas		kee-wee-tahs	City	Civitas			False	0
+24	nox		noks	Night	Nox			False	0
+25	aurora		ow-roh-rah	Dawn	Aurora			False	0
+26	amicitia		ah-mee-kee-tee-ah	Friendship	Amicitia			False	0
+27	humilis		hoo-mee-lees	Humble	Humilis			False	0
+28	veritas		veh-ree-tahs	Truth	Veritas			False	0
+29	imperator		im-peh-rah-tor	Emperor	Imperator			False	0
+30	ventus		ven-toos	Wind	Ventus			False	0
+31	furor		foo-ror	Rage	Furor			False	0
+32	fortuna		for-too-nah	Fortune	Fortuna			False	0
+33	corpus		kor-poos	Body	Corpus			False	0
+34	navis		nah-wees	Ship	Navis			False	0
+35	sapientia		sap-ee-en-tee-ah	Wisdom	Sapientia			True	0
+36	fama		fah-mah	Fame	Fama			False	0
+37	fatum		fah-toom	Destiny	Fatum			False	0
+38	aqua		ah-kwah	Water	Aqua			False	0
+39	pulchra		pool-krah	Beautiful	Pulchra			True	0
+40	nihil		nee-hil	Nothing	Nihil			False	0
+41	verus		veh-roos	TRUE	Verus			False	0
+42	clarus		klah-roos	Clear	Clarus			False	0
+43	igitur		ee-gee-toor	Therefore	Igitur			False	0
+44	ager		ah-ger	Field	Ager			False	0
+45	celestia		cheh-les-tee-ah	Heavenly	Celestia			False	0
+46	praemium		preh-mee-um	Reward	Praemium			False	0
+47	servare		ser-wah-ray	To save	Servare			True	0
+48	venia		veh-nee-ah	Pardon	Venia			False	0
+49	donum		doh-noom	Gift	Donum			False	0
+50	cadere		kah-deh-ray	To fall	Cadere			False	0
+51	hic		heek	This	Hic			False	0
+52	ille		eel-leh	That	Illle			False	0
+53	fabula		fah-boo-lah	Story	Fabula			False	0
+54	lectus		lek-tus	Bed	Lectus			False	0
+55	verba		wehr-bah	Words	Verba			False	0
+56	signum		seeg-noom	Sign	Signum			False	0
+57	fabri		fah-bree	Workmen	Fabri			False	0
+58	abire		ah-bee-ray	To go away	Abire			False	0
+59	mare		mah-ray	Sea	Mare			True	0
+60	creare		kreh-ah-ray	To create	Creare			False	0
+61	amicus		ah-mee-koos	Friend	Amicus			False	0
+62	incendium		een-kend-ee-um	Fire	Incendium			False	0
+63	opus		oh-poos	Work	Opus			False	0
+64	condere		kohn-deh-ray	To build	Condere			False	0
+65	amor		ah-mor	Love	Amor			False	0
+66	tenebrae		teh-neh-brah-Darkness	Tenebrae				False	0
+67	vetus		veh-toos	Old	Vetus			False	0
+68	condicio		kohn-dee-shee-oh	Condition	Condicio			False	0
+69	aeternum		ay-tern-oom	Eternal	Aeternum			False	0
+70	praesentia		preh-sen-tee-ah	Present	Praesentia			False	0
+71	discipulus		dis-sip-you-loos	Student	Discipulus			False	0
+72	virtus		veer-toos	Virtue	Virtus			False	0
+73	candidus		kan-dee-doos	White	Candidus			False	0
+74	beneficium		beh-neh-fee-kee-um	Benefit	Beneficium			False	0
+75	disciplina		dis-sip-lee-nah	Discipline	Disciplina			False	0
+76	temporis		tem-po-ris	Time	Temporis			False	0
+77	latere		lah-teh-ray	To hide	Latere			False	0
+78	fortis		for-tees	Strong	Fortis			True	0
+79	misericordia		mee-seh-ree-kor-dee-ah	Compassion	Misericordia			False	0
+80	probitas		proh-bee-tahs	Honesty	Probitas			False	0
+81	audire		ow-dee-ray	To hear	Audire			False	0
+82	voluntas		woh-loon-tahs	Will	Voluntas			False	0
+83	convenire		kohn-weh-nee-ray	To meet	Convenire			False	0
+84	cognoscere		kog-naw-sheh-ray	To know	Cognoscere			False	0
+85	nostrum		nohs-troom	Our	Nostrum			False	0
+86	gratia		grah-tee-ah	Grace	Gratia			False	0
+87	discordia		dis-kor-dee-ah	Discord	Discordia			False	0
+88	lucrum		loo-kroom	Gain	Lucrum			False	0
+89	magister		mah-jees-ter	Teacher	Magister			False	0
+90	melior		meh-lee-or	Better	Melior			False	0
+91	aequus		ay-kwus	Fair	Aequus			False	0
+92	legatus		leh-gah-toos	Envoy	Legatus			False	0
+93	beneficium		beh-neh-fee-kee-um	Benefit	Beneficium			False	0
+94	gravitas		grah-vee-tahs	Weight	Gravitas			False	0
+95	ancilla		ahn-chee-lah	Servant	Ancilla			False	0
+96	pecunia		peh-koo-nee-ah	Money	Pecunia			False	0
+97	aegrum		ay-grum	Sick	Aegrum			False	0
+98	bene		beh-neh	Well	Bene			False	0
+99	ventus		ven-toos	Wind	Ventus			False	0
+100	armarium		ahr-mah-ree-um	Wardrobe	Armarium			False	0
