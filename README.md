@@ -8,14 +8,13 @@ This program tags words in an Anki deck based on their presence in a book's text
 
 - **Learn vocabulary specific to the book you are reading**.
 - **Minimize dictionary lookups** by having the words pre-tagged in your Anki deck.
-- **Build your vocabulary** using Anki's spaced-repetition system.
-- **Learn new words chapter by chapter** without overwhelming yourself with too many new words.
+- **Build your vocabulary** Review vocabulary using flashcards.
 
 ## Intended Workflow
 
 1. **Pick a Book To Read**: Get the text in .txt format.
 2. **Tag the vocabulary**: The program will tag the words in your Anki deck based on their occurrences in the book. You can set the tags by chapter, so each chapter’s words are learned individually.
-3. **Learn new words**: Learn words in Anki that appear in the current chapter and learn them using the spaced-repetition system.
+3. **Learn new words**: Engage in the Flashcards to learn words in Anki that appear in the current chapter and rate your confidence with the vocab.
 4. **Read The Book With Minimal Dictionary Use** Enjoy the content of the book without needing to refer to a dictionary
 5. **Review Saved Words** Words get saved into the Anki History and new books will exclude these words.
 
